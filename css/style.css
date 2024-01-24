@@ -932,22 +932,11 @@
 .mainpagado {
     margin-top: 20%;
     text-align: center;
-
+    
 }
-.cartel1pagado{
-    margin-top: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 10px;
-    font-size: 20px;
-}
-.cartel2pagado{
-    margin-top: 20%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 23%;
-    padding: 10px;
-    font-size: 13px;
+#cardpagado{
+    width: 90%;
+    margin: 13%;
 }
 
 
@@ -1117,18 +1106,14 @@
     .card{
         margin: 0%;
     }
-    .cartel1pagado{
-        margin-top: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
-        padding: 10px;
-        font-size: 40px;
+    .mainpagado {
+        margin-top: 10%;
+        text-align: center;
+        
     }
-    .cartel2pagado{
-        margin-left: 5%;
-        margin-right: 5%;
-        padding: 10px;
-        font-size: 33px;
+    .footerpagado {
+        margin-top: 10%;
+        
     }
 }
 
