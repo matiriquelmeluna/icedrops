@@ -1,0 +1,155 @@
+/* mediaquery scss*/
+@media screen and (min-width: 768px){
+    header{
+        .itemsheader{
+            flex-direction: row;
+            padding: 5%;
+            .titulosindex {
+                font-size: 50px;
+            }
+            .substituloindex{
+                font-size: 28px;
+            }
+            #barra{
+                font-size: 20px;
+                ul{
+                    list-style-type: none;
+                }
+            }
+            
+        }
+    }
+    
+    main{
+        .cards{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10%;
+            padding: 10%;
+            .col{
+                width: 100%;
+                height: 100%;
+                margin-bottom: 0%;
+                font-size: 15px;
+                #descuento{
+                    width: 10%;
+                }
+                #nombreproducto{
+                    font-size: 24px;
+                }
+                #precioproducto{
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+    
+    .main-preguntas{
+        .preguntapre{
+            font-size: 25px;
+        }
+    }
+    .main-contacto{
+        .cardscontacto{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr ;
+            gap: 5%;
+            padding: 5%;
+            .card{
+                margin: 0%;
+            }
+        }
+        
+    }
+    .main-pago{
+        .cartel1pago{
+            font-size: 20px;
+        }
+        .cartel2{
+            font-size: 17px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    header{
+        .itemsheader{
+            flex-direction:row-reverse;
+            padding: 5%;
+            .titulo {
+                font-size: 50px;
+            }
+            .substitulo{
+                font-size: 28px;
+            }
+            #barra{
+                font-size: 20px;
+                ul{
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+    main{
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr ;
+            gap: 5%;
+            padding: 5%;
+            .col{
+                width: 100%;
+                height: 100%;
+                margin-bottom: 0%;
+                font-size: 10px;
+                #nombreproducto{
+                    font-size: 20px;
+                }
+                #precioproducto{
+                    font-size: 17px;
+                }
+                #descuento{
+                    font-size: 20px;
+                    width: 8%;
+                    
+                }
+            }
+        }
+    }
+    
+    .main-preguntas{
+        .preguntapre{
+            font-size: 30px;
+        } 
+    }
+    .main-contacto{
+        .cardscontacto{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr ;
+            gap: 5%;
+            padding: 5%;
+            .card{
+                margin: 0%;
+            }
+        }
+        
+    }
+    .main-pagado {
+        margin-top: 10%;
+        text-align: center;
+        
+    }
+    .footer-pagado {
+        margin-top: 10%;
+        
+    }
+    
+    
+    
+}
+
+

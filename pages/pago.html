@@ -4,7 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- Link fuentes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+            rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
+            rel="stylesheet">
+
+        <!-- Link css -->
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
         <title>Ice Drops</title>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -14,94 +29,105 @@
     </head>
     <body>
         <header class="headerpago">
-            <section class="itemsheader">
-            <section class="titulopago">
-                <h3 class="bannerpago">‎ </h3>
-                <h1 class="titulospago">ICE DROPS</h1>
-                <h2 class="substitulopago">Step into Distinction</h2>
-            </section>
-            <nav id="barra">
-                <li id="home">
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li id="productos">
-                    <a href="./productos.html">PRODUCTOS</a>
-                </li>
-                <li id="preguntas">
-                    <a href="./preguntas.html">PREGUNTAS</a>
-                </li>
-                <li id="nosotros">
-                    <a href="./nosotros.html">NOSOTROS</a>
-                </li>
-                <li id="contacto">
-                    <a href="./contacto.html">CONTACTO</a>
-                </li>
-            </nav>
-            </section>
+            <section class="fondo-header-pago">
+                <section class="itemsheader">
+                    <section id="logo">
+                        <h1 id="titulo">ICE DROPS</h1>
+                        <h2 id="substitulo">step into distinction</h2>
+                    </section>
+
+                    <nav id="barra">
+                        <ul>
+                            <li id="home">
+                                <a href="../index.html">INICIO</a>
+                            </li>
+                            <li id="productos">
+                                <a href="./productos.html">PRODUCTOS</a>
+                            </li>
+                            <li id="preguntas">
+                                <a href="./preguntas.html">PREGUNTAS</a>
+                            </li>
+                            <li id="nosotros">
+                                <a href="./nosotros.html">NOSOTROS</a>
+                            </li>
+                            <li id="contacto">
+                                <a href="./contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </section>
         </header>
-        <main class="mainpago">
+        <main class="main-pago">
             <section class="formulario">
                 <h1 class="cartel1pago">INICIAR COMPRA</h1>
 
                 <h3 class="cartel1pago">DATOS DE CONTACTO</h3>
-            <input type="email" name="email" class="datospago" required
-                placeholder="email@example.com">
-            <h3 class="cartel2">DATOS DEL DESTINATARIO</h3>
-            <input type="text" placeholder="Nombre" class="datospago" required>
-            <input type="text" placeholder="Apellido" class="datospago"
-                required>
-            <input type="number" placeholder="Teléfono" class="datospago"
-                required>
-            <input type="number" placeholder="Código Postal" class="datospago"
-                required>
-            <input type="text" placeholder="Calle" class="datospago" required>
+                <input type="email" name="email" class="datospago" required
+                    placeholder="email@example.com">
+                <h3 class="cartel2">DATOS DEL DESTINATARIO</h3>
+                <input type="text" placeholder="Nombre" class="datospago"
+                    required>
+                <input type="text" placeholder="Apellido" class="datospago"
+                    required>
+                <input type="number" placeholder="Teléfono" class="datospago"
+                    required>
+                <input type="number" placeholder="Código Postal"
+                    class="datospago"
+                    required>
+                <input type="text" placeholder="Calle" class="datospago"
+                    required>
                 <section class="felx">
                     <input type="number" placeholder="Número" class="deptopago">
-            <input type="number" placeholder="Departamento (Opcional)"
-                class="deptopago">
+                    <input type="number" placeholder="Departamento (Opcional)"
+                        class="deptopago">
                 </section>
-            
-            <input type="text" placeholder="Barrio (Opcional)"
-                class="datospago">
-            <h3 class="cartel2">DATOS DE FACTURACIÓN</h3>
-            <input type="number" placeholder="DNI o CUIL" class="datospago"
-                required>
-            <h3 class="cartel2">MEDIO DE PAGO (solo tarjeta)</h3>
-            <input type="number" placeholder="Número de tarjeta"
-                class="datospago" required>
-            <input type="text" placeholder="Titular de tarjeta"
-                class="datospago" required>
-            <input type="number" placeholder="Cantidad de cuotas"
-                class="datospago" required>
 
-            <li class="productosmenupago">
-                <a class="btn btn-dark" href="./pagado.html" role="button">PAGAR</a>
+                <input type="text" placeholder="Barrio (Opcional)"
+                    class="datospago">
+                <h3 class="cartel2">DATOS DE FACTURACIÓN</h3>
+                <input type="number" placeholder="DNI o CUIL" class="datospago"
+                    required>
+                <h3 class="cartel2">MEDIO DE PAGO (solo tarjeta)</h3>
+                <input type="number" placeholder="Número de tarjeta"
+                    class="datospago" required>
+                <input type="text" placeholder="Titular de tarjeta"
+                    class="datospago" required>
+                <input type="number" placeholder="Cantidad de cuotas"
+                    class="datospago" required>
 
+                <li class="productosmenupago">
+                    <a class="btn btn-dark" href="./pagado.html"
+                        role="button">PAGAR</a>
 
-            </li>
+                </li>
             </section>
-            
 
         </main>
         <footer class="footerpago">
-            <section class="titulofooterpago">
-                <h2 class="logofooterpago">ICE DROPS</h2>
-                <h3 class="subfooterpago">Step into Distinction</h3>
+            <section class="fondo-footer-pago">
+
+                <section class="titulofooter">
+                    <h2 id="titulo">ICE DROPS</h2>
+                    <h2 id="substitulo">Step into Distinction</h2>
+                </section>
+
+                <section id="suscripcion">
+                    <h4 id="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
+                        NOVEDADES</h4>
+                    <form action id="rellenar">
+                        <input type="email" name="email" id="email" required
+                            placeholder="email@example.com">
+                        <input type="submit" id="boton" value="Enviar">
+                    </form>
+                </section>
+                <h5 id="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS
+                    RESERVED</h5>
             </section>
-            
-            <section id="suscripcion">
-                <h4 id="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS NOVEDADES</h4>
-                <form action>
-                    <input type="email" name="email" id="email" required
-                        placeholder="email@example.com">
-                    <input type="submit" id="boton" value="Enviar">
-                </form>
-            </section>
-            <h5 id="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS RESERVED</h5>
         </footer>
         <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                crossorigin="anonymous"></script>
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
     </body>
 </html>

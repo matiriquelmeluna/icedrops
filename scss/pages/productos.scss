@@ -1,0 +1,119 @@
+/* scss productos */
+.fondo-header-productos {
+    background-image: url(./assets/img/header-drake.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    .balaclava{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border: 2px solid rgb(204, 204, 204);
+        border-radius: 20px;
+        overflow: hidden;
+        #sprm {
+            width: 90%;
+            height: 40%;
+            margin-top: 20%;
+        }
+        #nombreproducto {
+            font-size: 19px;
+        }
+        #precioproducto {
+            font-size: 16px;
+        }
+        #boton-comprar {
+            margin-bottom: 5%;
+        }
+    }
+    .bearbrick{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border: 2px solid rgb(204, 204, 204);
+        border-radius: 20px;
+        overflow: hidden;
+        #brb {
+            width: 65%;
+            height: 40%;
+            margin-top: 23%;
+            margin-bottom: -1%;
+        }
+        #nombreproducto {
+            font-size: 19px;
+        }
+        #precioproducto {
+            font-size: 16px;
+        }
+        #boton-comprar {
+            margin-bottom: 5%;
+        }
+    }
+    .jarritos{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border: 2px solid rgb(204, 204, 204);
+        border-radius: 20px;
+        overflow: hidden;
+        #jarritospr {
+            width: 80%;
+            height: 50%;
+            margin-top: 18%;
+            margin-bottom: -10%;
+        }
+        #nombreproducto {
+            font-size: 19px;
+        }
+        #precioproducto {
+            font-size: 16px;
+        }
+        #boton-comprar {
+            margin-bottom: 5%;
+        }
+    }
+    .beanie{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border: 2px solid rgb(204, 204, 204);
+        border-radius: 20px;
+        overflow: hidden;
+        #beaniepr {
+            width: 80%;
+            height: 40%;
+            margin-top: 20%;
+            margin-bottom: 2%;
+        }
+        #nombreproducto {
+            font-size: 19px;
+        }
+        #precioproducto {
+            font-size: 16px;
+        }
+        #boton-comprar {
+            margin-bottom: 5%;
+        }
+    }
+    .morepr {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.fondo-footer-productos {
+    margin-top: 5%;
+    padding-top: 5%;
+    -webkit-text-fill-color: #ffffff;
+    font-family: 'Train One', system-ui;
+    font-style: italic;
+    background-color: #2e1c08;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}

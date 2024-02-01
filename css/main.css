@@ -1,0 +1,702 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+/* scss header */
+header {
+  width: 100%;
+  height: 25%;
+}
+header .itemsheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header .itemsheader #logo {
+  margin-top: 5%;
+  text-align: center;
+  height: 10%;
+  justify-content: center;
+}
+header .itemsheader #logo #titulo {
+  font-size: 35px;
+  -webkit-text-fill-color: #949494;
+  height: 80%;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+}
+header .itemsheader #logo #substitulo {
+  font-size: 18px;
+  -webkit-text-fill-color: #949494;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+  font-weight: 580;
+}
+header .itemsheader #barra {
+  font-size: 22px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Bebas Neue", sans-serif;
+}
+header .itemsheader #barra ul {
+  list-style-type: none;
+  padding-left: 0%;
+  padding: 0%;
+}
+
+/* scss footer */
+footer {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+}
+footer #titulofooter {
+  text-align: center;
+  height: 20%;
+  width: 100%;
+  margin-top: 15%;
+  margin-bottom: 2%;
+}
+footer #titulofooter #titulo {
+  font-size: 35px;
+  -webkit-text-fill-color: #ffffff;
+  height: 80%;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+}
+footer #titulofooter #substitulo {
+  font-size: 18px;
+  -webkit-text-fill-color: #ffffff;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+}
+footer #suscripcion {
+  -webkit-text-fill-color: #979393;
+  align-self: center;
+  font-size: 10px;
+  margin-bottom: 5%;
+  font-family: "Bebas Neue", sans-serif;
+  width: 70%;
+}
+footer #suscripcion #cartelsus {
+  font-size: 15px;
+  margin-top: 5%;
+}
+footer #suscripcion #rellenar {
+  display: flex;
+}
+footer #suscripcion #email {
+  width: 90%;
+}
+footer #copy {
+  width: 100%;
+  font-size: 16px;
+  -webkit-text-fill-color: #979393;
+  margin-top: 5%;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* SCSS INDEX*/
+.fondo-header-index {
+  background-image: url(./assets/img/header-kanye.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+main .productos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 80px 0px;
+  align-items: center;
+}
+main .productos .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  font-family: "Bebas Neue", sans-serif;
+}
+main .productos .cards .col {
+  width: 60%;
+  height: 60%;
+  margin-bottom: 5%;
+}
+main .productos .cards .col .forum {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .productos .cards .col .forum #descuento {
+  font-weight: bold;
+  height: 3%;
+  width: 29%;
+  position: absolute;
+  margin: 1%;
+  font-size: 21px;
+}
+main .productos .cards .col .forum #bb {
+  width: 90%;
+  height: 50%;
+  margin-top: 8%;
+}
+main .productos .cards .col .forum #nombreproducto {
+  font-size: 19px;
+}
+main .productos .cards .col .forum #precioproducto {
+  font-size: 16px;
+}
+main .productos .cards .col .forum #boton-comprar {
+  margin-bottom: 5%;
+}
+main .productos .cards .col .travis {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .productos .cards .col .travis #descuento {
+  font-weight: bold;
+  height: 3%;
+  width: 29%;
+  position: absolute;
+  margin: 1%;
+  font-size: 21px;
+}
+main .productos .cards .col .travis #am1index {
+  width: 70%;
+  height: 27%;
+  margin-top: 35%;
+  margin-bottom: 1%;
+}
+main .productos .cards .col .travis #nombreproducto {
+  font-size: 19px;
+}
+main .productos .cards .col .travis #precioproducto {
+  font-size: 16px;
+}
+main .productos .cards .col .travis #boton-comprar {
+  margin-bottom: 5%;
+}
+main .productos .cards .col .stussy {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .productos .cards .col .stussy #descuento {
+  font-weight: bold;
+  height: 3%;
+  width: 29%;
+  position: absolute;
+  margin: 1%;
+  font-size: 21px;
+}
+main .productos .cards .col .stussy #stsy {
+  width: 60%;
+  height: 40%;
+  margin-top: 21%;
+}
+main .productos .cards .col .stussy #nombreproducto {
+  font-size: 19px;
+}
+main .productos .cards .col .stussy #precioproducto {
+  font-size: 16px;
+}
+main .productos .cards .col .stussy #boton-comprar {
+  margin-bottom: 5%;
+}
+main .productos .cards .col .zip {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .productos .cards .col .zip #descuento {
+  font-weight: bold;
+  height: 3%;
+  width: 29%;
+  position: absolute;
+  margin: 1%;
+  font-size: 21px;
+}
+main .productos .cards .col .zip #zippr {
+  width: 55%;
+  height: 45%;
+  margin-top: 19%;
+  margin-bottom: -4%;
+}
+main .productos .cards .col .zip #nombreproducto {
+  font-size: 19px;
+}
+main .productos .cards .col .zip #precioproducto {
+  font-size: 16px;
+}
+main .productos .cards .col .zip #boton-comprar {
+  margin-bottom: 5%;
+}
+main .productosmenu {
+  text-align: center;
+  list-style-type: none;
+  font-size: 24px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 5%;
+}
+
+.fondo-footer-index {
+  background-color: #460075;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* scss productos */
+.fondo-header-productos {
+  background-image: url(./assets/img/header-drake.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+main .balaclava {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .balaclava #sprm {
+  width: 90%;
+  height: 40%;
+  margin-top: 20%;
+}
+main .balaclava #nombreproducto {
+  font-size: 19px;
+}
+main .balaclava #precioproducto {
+  font-size: 16px;
+}
+main .balaclava #boton-comprar {
+  margin-bottom: 5%;
+}
+main .bearbrick {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .bearbrick #brb {
+  width: 65%;
+  height: 40%;
+  margin-top: 23%;
+  margin-bottom: -1%;
+}
+main .bearbrick #nombreproducto {
+  font-size: 19px;
+}
+main .bearbrick #precioproducto {
+  font-size: 16px;
+}
+main .bearbrick #boton-comprar {
+  margin-bottom: 5%;
+}
+main .jarritos {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .jarritos #jarritospr {
+  width: 80%;
+  height: 50%;
+  margin-top: 18%;
+  margin-bottom: -10%;
+}
+main .jarritos #nombreproducto {
+  font-size: 19px;
+}
+main .jarritos #precioproducto {
+  font-size: 16px;
+}
+main .jarritos #boton-comprar {
+  margin-bottom: 5%;
+}
+main .beanie {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .beanie #beaniepr {
+  width: 80%;
+  height: 40%;
+  margin-top: 20%;
+  margin-bottom: 2%;
+}
+main .beanie #nombreproducto {
+  font-size: 19px;
+}
+main .beanie #precioproducto {
+  font-size: 16px;
+}
+main .beanie #boton-comprar {
+  margin-bottom: 5%;
+}
+main .morepr {
+  text-align: center;
+  width: 100%;
+}
+
+.fondo-footer-productos {
+  margin-top: 5%;
+  padding-top: 5%;
+  -webkit-text-fill-color: #ffffff;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+  background-color: #2e1c08;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* scss preguntas */
+.fondo-header-preguntas {
+  background-image: url(./assets/img/header-harakiri.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.main-preguntas {
+  list-style: none;
+  padding: 10%;
+  text-align: left;
+  width: 100%;
+  height: 50%;
+}
+.main-preguntas .preguntapre {
+  font-size: 20px;
+}
+.main-preguntas #accordionExample {
+  padding: 10%;
+}
+
+.footerpre {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  display: flex;
+  margin: 24px 0px 0px 0px;
+  background-color: #5e0000;
+  display: flex;
+  flex-direction: column;
+  -webkit-text-fill-color: #ffffff;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+}
+.footerpre .fondo-footer-preguntas {
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* scss nosotros */
+.fondo-header-nosotros {
+  background-image: url(./assets/img/header-ysy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.main-nos {
+  padding: 10%;
+  margin-left: 15%;
+}
+.main-nos #carta {
+  width: 100%;
+}
+
+.fondo-footer-nosotros {
+  padding-top: 5%;
+  -webkit-text-fill-color: #ffffff;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+  background-color: rgb(65, 0, 139);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* scss contacto */
+.fondo-header-contacto {
+  background-image: url(./assets/img/header-neo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.main-contacto {
+  text-align: center;
+  width: 100%;
+}
+.main-contacto .contactoscon {
+  margin-top: 5%;
+}
+.main-contacto .card {
+  margin: 5%;
+}
+
+.fondo-footer-contacto {
+  margin-top: 5%;
+  padding-top: 5%;
+  -webkit-text-fill-color: #ffffff;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+  background-color: rgba(15, 26, 182, 0.9529411765);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* scss pago */
+.fondo-header-pago {
+  background-image: url(./assets/img/header-pago.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.main-pago {
+  text-align: center;
+  margin: 19%;
+}
+.main-pago .formulario {
+  width: 100%;
+  display: grid;
+  font-size: 10px;
+}
+.main-pago .formulario .cartel1pago {
+  font-size: 16px;
+}
+.main-pago .formulario .cartel2 {
+  font-size: 13px;
+}
+.main-pago .formulario .datospago {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.main-pago .formulario .felx {
+  display: flex;
+  width: 100%;
+}
+.main-pago .formulario .felx .deptopago {
+  width: 50%;
+}
+.main-pago .formulario .productosmenupago {
+  list-style: none;
+}
+
+.fondo-footer-pago {
+  margin-top: 5%;
+  padding-top: 5%;
+  -webkit-text-fill-color: #ffffff;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+  background-color: #0f0f0f;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* scss pagado */
+.fondo-header-pagado {
+  background-image: url(./assets/img/header-pagado.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.main-pagado {
+  margin-top: 40%;
+  margin-bottom: 40%;
+  text-align: center;
+}
+.main-pagado #cardpagado {
+  width: 90%;
+  margin: 13%;
+}
+
+.fondo-footer-pagado {
+  margin-top: 5%;
+  padding-top: 5%;
+  -webkit-text-fill-color: #ffffff;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+  background-color: #0f0f0f;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* mediaquery scss*/
+@media screen and (min-width: 768px) {
+  header .itemsheader {
+    flex-direction: row;
+    padding: 5%;
+  }
+  header .itemsheader .titulosindex {
+    font-size: 50px;
+  }
+  header .itemsheader .substituloindex {
+    font-size: 28px;
+  }
+  header .itemsheader #barra {
+    font-size: 20px;
+  }
+  header .itemsheader #barra ul {
+    list-style-type: none;
+  }
+  main .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10%;
+    padding: 10%;
+  }
+  main .cards .col {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0%;
+    font-size: 15px;
+  }
+  main .cards .col #descuento {
+    width: 10%;
+  }
+  main .cards .col #nombreproducto {
+    font-size: 24px;
+  }
+  main .cards .col #precioproducto {
+    font-size: 21px;
+  }
+  .main-preguntas .preguntapre {
+    font-size: 25px;
+  }
+  .main-contacto .cardscontacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5%;
+    padding: 5%;
+  }
+  .main-contacto .cardscontacto .card {
+    margin: 0%;
+  }
+  .main-pago .cartel1pago {
+    font-size: 20px;
+  }
+  .main-pago .cartel2 {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .itemsheader {
+    flex-direction: row-reverse;
+    padding: 5%;
+  }
+  header .itemsheader .titulo {
+    font-size: 50px;
+  }
+  header .itemsheader .substitulo {
+    font-size: 28px;
+  }
+  header .itemsheader #barra {
+    font-size: 20px;
+  }
+  header .itemsheader #barra ul {
+    list-style-type: none;
+  }
+  main .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5%;
+    padding: 5%;
+  }
+  main .cards .col {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0%;
+    font-size: 10px;
+  }
+  main .cards .col #nombreproducto {
+    font-size: 20px;
+  }
+  main .cards .col #precioproducto {
+    font-size: 17px;
+  }
+  main .cards .col #descuento {
+    font-size: 20px;
+    width: 8%;
+  }
+  .main-preguntas .preguntapre {
+    font-size: 30px;
+  }
+  .main-contacto .cardscontacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5%;
+    padding: 5%;
+  }
+  .main-contacto .cardscontacto .card {
+    margin: 0%;
+  }
+  .main-pagado {
+    margin-top: 10%;
+    text-align: center;
+  }
+  .footer-pagado {
+    margin-top: 10%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

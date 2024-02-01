@@ -4,7 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- Link fuentes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+            rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
+            rel="stylesheet">
+
+        <!-- Link css -->
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
         <title>Ice Drops</title>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -13,38 +28,42 @@
             crossorigin="anonymous">
     </head>
     <body>
-        <header class="headercon">
-            <section class="itemsheader">
-                <section class="titulocon">
-                    <h3 class="bannercon">‎ </h3>
-                    <h1 class="tituloscon">ICE DROPS</h1>
-                    <h2 class="substitulocon">Step into Distinction</h2>
+        <header>
+            <section class="fondo-header-contacto">
+                <section class="itemsheader">
+                    <section id="logo">
+                        <h1 id="titulo">ICE DROPS</h1>
+                        <h2 id="substitulo">step into distinction</h2>
+                    </section>
+
+                    <nav id="barra">
+                        <ul>
+                            <li id="home">
+                                <a href="../index.html">INICIO</a>
+                            </li>
+                            <li id="productos">
+                                <a href="./productos.html">PRODUCTOS</a>
+                            </li>
+                            <li id="preguntas">
+                                <a href="./preguntas.html">PREGUNTAS</a>
+                            </li>
+                            <li id="nosotros">
+                                <a href="./nosotros.html">NOSOTROS</a>
+                            </li>
+                            <li id="contacto">
+                                <a href="./contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+
+                    </nav>
                 </section>
-                <nav id="barra">
-                    <li id="home">
-                        <a href="../index.html">INICIO</a>
-                    </li>
-                    <li id="productos">
-                        <a href="./productos.html">PRODUCTOS</a>
-                    </li>
-                    <li id="preguntas">
-                        <a href="./preguntas.html">PREGUNTAS</a>
-                    </li>
-                    <li id="nosotros">
-                        <a href="./nosotros.html">NOSOTROS</a>
-                    </li>
-                    <li id="contacto">
-                        <a href="./contacto.html">CONTACTO</a>
-                    </li>
-                </nav>
-            </section>
 
         </header>
 
-        <main class="main">
+        <main class="main-contacto">
             <h2 class="contactoscon">CONTACTOS</h2>
             <div class="cardscontacto">
-                <div class="card" >
+                <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">ARGENTINA</h5>
                         <p class="card-text">INSTAGRAM: icedropsar</p>
@@ -53,7 +72,7 @@
                         <p class="card-text">MAIL: icedropsar@gmail.com</p>
                     </div>
                 </div>
-                <div class="card" >
+                <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">BRASIL</h5>
                         <p class="card-text">INSTAGRAM: icedropsbr</p>
@@ -62,7 +81,7 @@
                         <p class="card-text">MAIL: icedropsbr@gmail.com</p>
                     </div>
                 </div>
-                <div class="card" >
+                <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">URUGUAY</h5>
                         <p class="card-text">INSTAGRAM: icedropsuy</p>
@@ -71,28 +90,30 @@
                         <p class="card-text">MAIL: icedropsuy@gmail.com</p>
                     </div>
                 </div>
-                
+
             </div>
-            
 
         </main>
 
-        <footer class="footercon">
-            <section class="titulofootercon">
-                <h2 class="logofootercon">ICE DROPS</h2>
-                <h3 class="subfootercon">Step into Distinction</h3>
-            </section>
+        <footer>
+            <section class="fondo-footer-contacto">
+                <section class="titulofooter">
+                    <h2 id="titulo">ICE DROPS</h2>
+                    <h2 id="substitulo">Step into Distinction</h2>
+                </section>
 
-            <section id="suscripcion">
-                <h4 id="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
-                    NOVEDADES</h4>
-                <form action>
-                    <input type="email" name="email" id="email" required
-                        placeholder="email@example.com">
-                    <input type="submit" id="boton" value="Enviar">
-                </form>
+                <section id="suscripcion">
+                    <h4 id="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
+                        NOVEDADES</h4>
+                    <form action id="rellenar">
+                        <input type="email" name="email" id="email" required
+                            placeholder="email@example.com">
+                        <input type="submit" id="boton" value="Enviar">
+                    </form>
+                </section>
+                <h5 id="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS
+                    RESERVED</h5>
             </section>
-            <h5 id="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS RESERVED</h5>
         </footer>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
