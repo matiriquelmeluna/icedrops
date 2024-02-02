@@ -492,10 +492,10 @@ main .morepr {
   font-size: 25px;
 }
 .main-nos #carta .tienda {
-  background-image: url(../../css/assets/img/tienda.jfif);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 500px;
+  height: 50%;
+  width: 100%;
+}
+.main-nos #carta .tienda .foto-tienda {
   width: 100%;
 }
 
