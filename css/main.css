@@ -482,8 +482,8 @@ main .morepr {
 
 /* main nosotros */
 .main-nos {
-  padding: 2%;
-  margin-left: 8%;
+  padding: 10%;
+  margin-left: 15%;
 }
 .main-nos #carta {
   width: 100%;
@@ -496,7 +496,7 @@ main .morepr {
   width: 100%;
 }
 .main-nos #carta .tienda .foto-tienda {
-  width: 150px;
+  width: 100%;
 }
 
 /* footer nosotros */
