@@ -49,6 +49,13 @@ header .itemsheader #barra ul {
   padding-left: 0%;
   padding: 0%;
 }
+header .itemsheader #barra ul .nav-link {
+  color: #949494;
+}
+header .itemsheader #barra ul .nav-link:hover {
+  color: red;
+  text-decoration: underline;
+}
 
 /* scss footer */
 footer {
@@ -103,6 +110,7 @@ footer #copy {
 }
 
 /* SCSS INDEX*/
+/* header index */
 .fondo-header-index {
   background-image: url(./assets/img/header-kanye.png);
   background-repeat: no-repeat;
@@ -111,6 +119,7 @@ footer #copy {
   width: 100%;
 }
 
+/* main index */
 main .productos {
   display: flex;
   flex-direction: column;
@@ -140,16 +149,16 @@ main .productos .cards .col .forum {
 }
 main .productos .cards .col .forum #descuento {
   font-weight: bold;
-  height: 3%;
-  width: 29%;
-  position: absolute;
-  margin: 1%;
+  height: 7%;
+  width: 30%;
+  position: relative;
+  margin: 10%;
   font-size: 21px;
 }
 main .productos .cards .col .forum #bb {
   width: 90%;
   height: 50%;
-  margin-top: 8%;
+  margin-top: -8%;
 }
 main .productos .cards .col .forum #nombreproducto {
   font-size: 19px;
@@ -171,16 +180,16 @@ main .productos .cards .col .travis {
 main .productos .cards .col .travis #descuento {
   font-weight: bold;
   height: 3%;
-  width: 29%;
-  position: absolute;
-  margin: 1%;
+  width: 30%;
+  position: relative;
+  margin: 10%;
   font-size: 21px;
 }
 main .productos .cards .col .travis #am1index {
   width: 70%;
   height: 27%;
-  margin-top: 35%;
-  margin-bottom: 1%;
+  margin-top: 27%;
+  margin-bottom: 2%;
 }
 main .productos .cards .col .travis #nombreproducto {
   font-size: 19px;
@@ -202,15 +211,15 @@ main .productos .cards .col .stussy {
 main .productos .cards .col .stussy #descuento {
   font-weight: bold;
   height: 3%;
-  width: 29%;
-  position: absolute;
-  margin: 1%;
+  width: 30%;
+  position: relative;
+  margin: 10%;
   font-size: 21px;
 }
 main .productos .cards .col .stussy #stsy {
   width: 60%;
   height: 40%;
-  margin-top: 21%;
+  margin-top: 15%;
 }
 main .productos .cards .col .stussy #nombreproducto {
   font-size: 19px;
@@ -232,15 +241,15 @@ main .productos .cards .col .zip {
 main .productos .cards .col .zip #descuento {
   font-weight: bold;
   height: 3%;
-  width: 29%;
-  position: absolute;
-  margin: 1%;
+  width: 30%;
+  position: relative;
+  margin: 10%;
   font-size: 21px;
 }
 main .productos .cards .col .zip #zippr {
   width: 55%;
   height: 45%;
-  margin-top: 19%;
+  margin-top: 7%;
   margin-bottom: -4%;
 }
 main .productos .cards .col .zip #nombreproducto {
@@ -259,7 +268,15 @@ main .productosmenu {
   font-family: "Bebas Neue", sans-serif;
   margin-top: 5%;
 }
+main .productosmenu .nav-link {
+  color: #222222;
+}
+main .productosmenu .nav-link:hover {
+  color: red;
+  text-decoration: underline;
+}
 
+/* footer index */
 .fondo-footer-index {
   background-color: #460075;
   width: 100%;
@@ -269,6 +286,7 @@ main .productosmenu {
 }
 
 /* scss productos */
+/* header productos*/
 .fondo-header-productos {
   background-image: url(./assets/img/header-drake.png);
   background-repeat: no-repeat;
@@ -277,7 +295,8 @@ main .productosmenu {
   width: 100%;
 }
 
-main .balaclava {
+/* main productos*/
+main .col .balaclava {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -285,87 +304,88 @@ main .balaclava {
   border-radius: 20px;
   overflow: hidden;
 }
-main .balaclava #sprm {
+main .col .balaclava #sprm {
   width: 90%;
   height: 40%;
-  margin-top: 20%;
-}
-main .balaclava #nombreproducto {
-  font-size: 19px;
-}
-main .balaclava #precioproducto {
-  font-size: 16px;
-}
-main .balaclava #boton-comprar {
-  margin-bottom: 5%;
-}
-main .bearbrick {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  border: 2px solid rgb(204, 204, 204);
-  border-radius: 20px;
-  overflow: hidden;
-}
-main .bearbrick #brb {
-  width: 65%;
-  height: 40%;
-  margin-top: 23%;
-  margin-bottom: -1%;
-}
-main .bearbrick #nombreproducto {
-  font-size: 19px;
-}
-main .bearbrick #precioproducto {
-  font-size: 16px;
-}
-main .bearbrick #boton-comprar {
-  margin-bottom: 5%;
-}
-main .jarritos {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  border: 2px solid rgb(204, 204, 204);
-  border-radius: 20px;
-  overflow: hidden;
-}
-main .jarritos #jarritospr {
-  width: 80%;
-  height: 50%;
-  margin-top: 18%;
-  margin-bottom: -10%;
-}
-main .jarritos #nombreproducto {
-  font-size: 19px;
-}
-main .jarritos #precioproducto {
-  font-size: 16px;
-}
-main .jarritos #boton-comprar {
-  margin-bottom: 5%;
-}
-main .beanie {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  border: 2px solid rgb(204, 204, 204);
-  border-radius: 20px;
-  overflow: hidden;
-}
-main .beanie #beaniepr {
-  width: 80%;
-  height: 40%;
-  margin-top: 20%;
+  margin-top: 36%;
   margin-bottom: 2%;
 }
-main .beanie #nombreproducto {
+main .col .balaclava #nombreproducto {
   font-size: 19px;
 }
-main .beanie #precioproducto {
+main .col .balaclava #precioproducto {
   font-size: 16px;
 }
-main .beanie #boton-comprar {
+main .col .balaclava #boton-comprar {
+  margin-bottom: 5%;
+}
+main .col .bearbrick {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .col .bearbrick #brb {
+  width: 65%;
+  height: 40%;
+  margin-top: 40%;
+  margin-bottom: -1%;
+}
+main .col .bearbrick #nombreproducto {
+  font-size: 19px;
+}
+main .col .bearbrick #precioproducto {
+  font-size: 16px;
+}
+main .col .bearbrick #boton-comprar {
+  margin-bottom: 5%;
+}
+main .col .jarritos {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .col .jarritos #jarritospr {
+  width: 80%;
+  height: 50%;
+  margin-top: 28%;
+  margin-bottom: -10%;
+}
+main .col .jarritos #nombreproducto {
+  font-size: 19px;
+}
+main .col .jarritos #precioproducto {
+  font-size: 16px;
+}
+main .col .jarritos #boton-comprar {
+  margin-bottom: 5%;
+}
+main .col .beanie {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .col .beanie #beaniepr {
+  width: 80%;
+  height: 40%;
+  margin-top: 31%;
+  margin-bottom: 2%;
+}
+main .col .beanie #nombreproducto {
+  font-size: 19px;
+}
+main .col .beanie #precioproducto {
+  font-size: 16px;
+}
+main .col .beanie #boton-comprar {
   margin-bottom: 5%;
 }
 main .morepr {
@@ -373,6 +393,7 @@ main .morepr {
   width: 100%;
 }
 
+/* footer productos*/
 .fondo-footer-productos {
   margin-top: 5%;
   padding-top: 5%;
@@ -387,6 +408,7 @@ main .morepr {
 }
 
 /* scss preguntas */
+/* header preguntas*/
 .fondo-header-preguntas {
   background-image: url(./assets/img/header-harakiri.png);
   background-repeat: no-repeat;
@@ -395,6 +417,7 @@ main .morepr {
   width: 100%;
 }
 
+/* main preguntas*/
 .main-preguntas {
   list-style: none;
   padding: 10%;
@@ -408,7 +431,24 @@ main .morepr {
 .main-preguntas #accordionExample {
   padding: 10%;
 }
+.main-preguntas #accordionExample .accordion-body {
+  display: flex;
+}
+.main-preguntas #accordionExample .accordion-body .foto-envios {
+  width: 50%;
+}
+.main-preguntas #accordionExample .accordion-body .foto-no {
+  width: 50%;
+}
+.main-preguntas #accordionExample .accordion-body .foto-pago {
+  width: 50%;
+}
+.main-preguntas #accordionExample .accordion-body h3 {
+  font-size: 15px;
+  width: 100%;
+}
 
+/* footer preguntas*/
 .footerpre {
   width: 100%;
   height: 25%;
@@ -431,6 +471,7 @@ main .morepr {
 }
 
 /* scss nosotros */
+/* header nosotros */
 .fondo-header-nosotros {
   background-image: url(./assets/img/header-ysy.png);
   background-repeat: no-repeat;
@@ -439,6 +480,7 @@ main .morepr {
   width: 100%;
 }
 
+/* main nosotros */
 .main-nos {
   padding: 10%;
   margin-left: 15%;
@@ -446,7 +488,18 @@ main .morepr {
 .main-nos #carta {
   width: 100%;
 }
+.main-nos #carta .card-title {
+  font-size: 25px;
+}
+.main-nos #carta .tienda {
+  background-image: url(../../css/assets/img/tienda.jfif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 100%;
+}
 
+/* footer nosotros */
 .fondo-footer-nosotros {
   padding-top: 5%;
   -webkit-text-fill-color: #ffffff;
@@ -460,6 +513,7 @@ main .morepr {
 }
 
 /* scss contacto */
+/* header contacto*/
 .fondo-header-contacto {
   background-image: url(./assets/img/header-neo.png);
   background-repeat: no-repeat;
@@ -468,17 +522,23 @@ main .morepr {
   width: 100%;
 }
 
+/* main contacto*/
 .main-contacto {
   text-align: center;
   width: 100%;
 }
 .main-contacto .contactoscon {
   margin-top: 5%;
+  font-size: 25px;
 }
 .main-contacto .card {
   margin: 5%;
 }
+.main-contacto .card .card-title {
+  font-size: 22px;
+}
 
+/* footer contacto*/
 .fondo-footer-contacto {
   margin-top: 5%;
   padding-top: 5%;
@@ -493,6 +553,7 @@ main .morepr {
 }
 
 /* scss pago */
+/* header pago*/
 .fondo-header-pago {
   background-image: url(./assets/img/header-pago.png);
   background-repeat: no-repeat;
@@ -501,6 +562,7 @@ main .morepr {
   width: 100%;
 }
 
+/* main pago*/
 .main-pago {
   text-align: center;
   margin: 19%;
@@ -532,6 +594,7 @@ main .morepr {
   list-style: none;
 }
 
+/* footer pago*/
 .fondo-footer-pago {
   margin-top: 5%;
   padding-top: 5%;
@@ -546,6 +609,7 @@ main .morepr {
 }
 
 /* scss pagado */
+/* header pagado*/
 .fondo-header-pagado {
   background-image: url(./assets/img/header-pagado.png);
   background-repeat: no-repeat;
@@ -554,6 +618,7 @@ main .morepr {
   width: 100%;
 }
 
+/* main pagado*/
 .main-pagado {
   margin-top: 40%;
   margin-bottom: 40%;
@@ -564,6 +629,7 @@ main .morepr {
   margin: 13%;
 }
 
+/* footer pagado*/
 .fondo-footer-pagado {
   margin-top: 5%;
   padding-top: 5%;
@@ -595,26 +661,33 @@ main .morepr {
   header .itemsheader #barra ul {
     list-style-type: none;
   }
-  main .cards {
+  main .productos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 80px 0px;
+    align-items: center;
+  }
+  main .productos .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10%;
     padding: 10%;
   }
-  main .cards .col {
+  main .productos .cards .col {
     width: 100%;
     height: 100%;
     margin-bottom: 0%;
     font-size: 15px;
   }
-  main .cards .col #descuento {
+  main .productos .cards .col #descuento {
     width: 10%;
   }
-  main .cards .col #nombreproducto {
+  main .productos .cards .col #nombreproducto {
     font-size: 24px;
   }
-  main .cards .col #precioproducto {
+  main .productos .cards .col #precioproducto {
     font-size: 21px;
   }
   .main-preguntas .preguntapre {
@@ -654,28 +727,36 @@ main .morepr {
   header .itemsheader #barra ul {
     list-style-type: none;
   }
-  main .cards {
+  main .productos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 80px 0px;
+    align-items: center;
+  }
+  main .productos .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     gap: 5%;
     padding: 5%;
   }
-  main .cards .col {
+  main .productos .cards .col {
     width: 100%;
     height: 100%;
     margin-bottom: 0%;
     font-size: 10px;
   }
-  main .cards .col #nombreproducto {
-    font-size: 20px;
-  }
-  main .cards .col #precioproducto {
-    font-size: 17px;
-  }
-  main .cards .col #descuento {
+  main .productos .cards .col #descuento {
     font-size: 20px;
     width: 8%;
+    margin: 2%;
+  }
+  main .productos .cards .col #nombreproducto {
+    font-size: 20px;
+  }
+  main .productos .cards .col #precioproducto {
+    font-size: 17px;
   }
   .main-preguntas .preguntapre {
     font-size: 30px;

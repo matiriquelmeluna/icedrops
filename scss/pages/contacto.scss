@@ -1,4 +1,6 @@
 /* scss contacto */
+
+/* header contacto*/
 .fondo-header-contacto{
     background-image: url(./assets/img/header-neo.png);
     background-repeat: no-repeat;
@@ -7,16 +9,24 @@
     width: 100%;
 }
 
+/* main contacto*/
 .main-contacto {
     text-align: center;
     width: 100%;
     .contactoscon{
         margin-top: 5%;
+        font-size: 25px;
     }
     .card{
         margin: 5%;
+        .card-title{
+            font-size: 22px;
+        }
     }
+    
 }
+
+/* footer contacto*/
 .fondo-footer-contacto{
     margin-top: 5%;
     padding-top: 5%;

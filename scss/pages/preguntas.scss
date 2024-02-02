@@ -1,4 +1,6 @@
 /* scss preguntas */
+
+/* header preguntas*/
 .fondo-header-preguntas {
     background-image: url(./assets/img/header-harakiri.png);
     background-repeat: no-repeat;
@@ -8,6 +10,7 @@
 
 }
 
+/* main preguntas*/
 .main-preguntas {
     list-style: none;
     padding: 10%;
@@ -21,8 +24,27 @@
 
     #accordionExample {
         padding: 10%;
+        .accordion-body{
+            display: flex;
+            .foto-envios{
+                width: 50%;
+            }
+            .foto-no{
+                width: 50%;
+            }
+            .foto-pago{
+                width: 50%;
+            }
+            h3{
+                font-size: 15px;
+                width: 100%;
+            }
+        }
+        
     }
 }
+
+/* footer preguntas*/
 .footerpre {
     width: 100%;
     height: 25%;

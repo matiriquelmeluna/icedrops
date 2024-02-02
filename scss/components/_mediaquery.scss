@@ -1,155 +1,199 @@
 /* mediaquery scss*/
-@media screen and (min-width: 768px){
-    header{
-        .itemsheader{
+@media screen and (min-width: 768px) {
+    header {
+        .itemsheader {
             flex-direction: row;
             padding: 5%;
+
             .titulosindex {
                 font-size: 50px;
             }
-            .substituloindex{
+
+            .substituloindex {
                 font-size: 28px;
             }
-            #barra{
+
+            #barra {
                 font-size: 20px;
-                ul{
+
+                ul {
                     list-style-type: none;
                 }
             }
-            
+
         }
     }
-    
-    main{
-        .cards{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 10%;
-            padding: 10%;
-            .col{
-                width: 100%;
-                height: 100%;
-                margin-bottom: 0%;
-                font-size: 15px;
-                #descuento{
-                    width: 10%;
-                }
-                #nombreproducto{
-                    font-size: 24px;
-                }
-                #precioproducto{
-                    font-size: 21px;
+
+    main {
+        .productos {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 80px 0px;
+            align-items: center;
+
+            .cards {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 10%;
+                padding: 10%;
+
+                .col {
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: 0%;
+                    font-size: 15px;
+
+                    #descuento {
+                        width: 10%;
+                    }
+
+                    #nombreproducto {
+                        font-size: 24px;
+                    }
+
+                    #precioproducto {
+                        font-size: 21px;
+                    }
+                    
                 }
             }
         }
     }
-    
-    .main-preguntas{
-        .preguntapre{
+
+    .main-preguntas {
+        .preguntapre {
             font-size: 25px;
         }
     }
-    .main-contacto{
-        .cardscontacto{
+
+    .main-contacto {
+        .cardscontacto {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 1fr ;
+            grid-template-rows: 1fr;
             gap: 5%;
             padding: 5%;
-            .card{
+
+            .card {
                 margin: 0%;
             }
         }
-        
+
     }
-    .main-pago{
-        .cartel1pago{
+
+    .main-pago {
+        .cartel1pago {
             font-size: 20px;
         }
-        .cartel2{
+
+        .cartel2 {
             font-size: 17px;
         }
     }
 }
 
 
-@media screen and (min-width: 1024px){
-    header{
-        .itemsheader{
-            flex-direction:row-reverse;
+@media screen and (min-width: 1024px) {
+    header {
+        .itemsheader {
+            flex-direction: row-reverse;
             padding: 5%;
+
             .titulo {
                 font-size: 50px;
             }
-            .substitulo{
+
+            .substitulo {
                 font-size: 28px;
             }
-            #barra{
+
+            #barra {
                 font-size: 20px;
-                ul{
+
+                ul {
                     list-style-type: none;
                 }
             }
         }
     }
-    main{
-        .cards{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 1fr ;
-            gap: 5%;
-            padding: 5%;
-            .col{
-                width: 100%;
-                height: 100%;
-                margin-bottom: 0%;
-                font-size: 10px;
-                #nombreproducto{
-                    font-size: 20px;
-                }
-                #precioproducto{
-                    font-size: 17px;
-                }
-                #descuento{
-                    font-size: 20px;
-                    width: 8%;
+
+    main {
+        .productos {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 80px 0px;
+            align-items: center;
+
+            .cards {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: 1fr;
+                gap: 5%;
+                padding: 5%;
+
+                .col {
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: 0%;
+                    font-size: 10px;
+                    
+                    #descuento {
+                        font-size: 20px;
+                        width: 8%;
+                        margin: 2%;
+                        
+
+                    }
+
+                    #nombreproducto {
+                        font-size: 20px;
+                    }
+
+                    #precioproducto {
+                        font-size: 17px;
+                    }
+
                     
                 }
             }
         }
     }
-    
-    .main-preguntas{
-        .preguntapre{
+
+    .main-preguntas {
+        .preguntapre {
             font-size: 30px;
-        } 
+        }
     }
-    .main-contacto{
-        .cardscontacto{
+
+    .main-contacto {
+        .cardscontacto {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 1fr ;
+            grid-template-rows: 1fr;
             gap: 5%;
             padding: 5%;
-            .card{
+
+            .card {
                 margin: 0%;
             }
         }
-        
+
     }
+
     .main-pagado {
         margin-top: 10%;
         text-align: center;
-        
+
     }
+
     .footer-pagado {
         margin-top: 10%;
-        
+
     }
-    
-    
-    
+
+
+
 }
-
-

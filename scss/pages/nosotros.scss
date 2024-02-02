@@ -1,4 +1,6 @@
-/* scss nosotros */
+/* scss nosotros */ 
+
+/* header nosotros */
 .fondo-header-nosotros {
     background-image: url(./assets/img/header-ysy.png);
     background-repeat: no-repeat;
@@ -6,13 +8,25 @@
     height: 100%;
     width: 100%;
 }
+/* main nosotros */
 .main-nos{
     padding: 10%;
     margin-left: 15%;
     #carta{
         width: 100%;
+        .card-title{
+            font-size: 25px;
+        }
+        .tienda{
+            background-image: url(../../css/assets/img/tienda.jfif);
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 500px;
+            width: 100%;
+        }
     }
 }
+/* footer nosotros */
 .fondo-footer-nosotros {
     padding-top: 5%;
     -webkit-text-fill-color: #ffffff;

@@ -1,5 +1,6 @@
 /* SCSS INDEX*/
 
+/* header index */
 .fondo-header-index {
     background-image: url(./assets/img/header-kanye.png);
     background-repeat: no-repeat;
@@ -7,6 +8,8 @@
     height: 100%;
     width: 100%;
 }
+
+/* main index */
 
 main{
     .productos {
@@ -38,17 +41,17 @@ main{
 
                     #descuento {
                         font-weight: bold;
-                        height: 3%;
-                        width: 29%;
-                        position: absolute;
-                        margin: 1%;
+                        height: 7%;
+                        width: 30%;
+                        position: relative;
+                        margin: 10%;
                         font-size: 21px;
                     }
 
                     #bb {
                         width: 90%;
                         height: 50%;
-                        margin-top: 8%;
+                        margin-top: -8%;
                     }
 
                     #nombreproducto {
@@ -75,17 +78,17 @@ main{
                     #descuento {
                         font-weight: bold;
                         height: 3%;
-                        width: 29%;
-                        position: absolute;
-                        margin: 1%;
+                        width: 30%;
+                        position: relative;
+                        margin: 10%;
                         font-size: 21px;
                     }
 
                     #am1index {
                         width: 70%;
                         height: 27%;
-                        margin-top: 35%;
-                        margin-bottom: 1%;
+                        margin-top: 27%;
+                        margin-bottom: 2%;
                     }
 
                     #nombreproducto {
@@ -112,16 +115,16 @@ main{
                     #descuento {
                         font-weight: bold;
                         height: 3%;
-                        width: 29%;
-                        position: absolute;
-                        margin: 1%;
+                        width: 30%;
+                        position: relative;
+                        margin: 10%;
                         font-size: 21px;
                     }
 
                     #stsy {
                         width: 60%;
                         height: 40%;
-                        margin-top: 21%;
+                        margin-top: 15%;
                     }
 
                     #nombreproducto {
@@ -148,16 +151,16 @@ main{
                     #descuento {
                         font-weight: bold;
                         height: 3%;
-                        width: 29%;
-                        position: absolute;
-                        margin: 1%;
+                        width: 30%;
+                        position: relative;
+                        margin: 10%;
                         font-size: 21px;
                     }
 
                     #zippr {
                         width: 55%;
                         height: 45%;
-                        margin-top: 19%;
+                        margin-top: 7%;
                         margin-bottom: -4%;
                     }
 
@@ -183,8 +186,17 @@ main{
         font-size: 24px;
         font-family: 'Bebas Neue', sans-serif;
         margin-top: 5%;
+        .nav-link{
+            color: #222222;
+        }
+        .nav-link:hover{
+            color: red;
+            text-decoration: underline;
+        }
     }
 }
+
+/* footer index */
 
 .fondo-footer-index {
     background-color: #460075;

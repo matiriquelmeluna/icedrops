@@ -18,10 +18,10 @@
             rel="stylesheet">
 
         <!-- Link css -->
-        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/main.css">
-
+        <!-- Titulo -->
         <title>Ice Drops</title>
+        <!-- Link Bootstrap -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -30,29 +30,34 @@
     </head>
     <body>
         <header>
+            <!-- Menu de Navegación -->
             <section class="fondo-header-preguntas">
                 <section class="itemsheader">
                     <section id="logo">
-                        <h1 id="titulo">ICE DROPS</h1>
+                        <h2 id="titulo">ICE DROPS</h2>
                         <h2 id="substitulo">step into distinction</h2>
                     </section>
 
                     <nav id="barra">
                         <ul>
-                            <li id="home">
-                                <a href="../index.html">INICIO</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">INICIO</a>
                             </li>
-                            <li id="productos">
-                                <a href="./productos.html">PRODUCTOS</a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./productos.html">PRODUCTOS</a>
                             </li>
-                            <li id="preguntas">
-                                <a href="./preguntas.html">PREGUNTAS</a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./preguntas.html">PREGUNTAS</a>
                             </li>
-                            <li id="nosotros">
-                                <a href="./nosotros.html">NOSOTROS</a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
                             </li>
-                            <li id="contacto">
-                                <a href="./contacto.html">CONTACTO</a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">CONTACTO</a>
                             </li>
                         </ul>
 
@@ -62,6 +67,7 @@
 
         </header>
         <main class="main-preguntas">
+            <!-- Main -->
             <h1 class="preguntapre">Preguntas Frecuentes:</h1>
 
             <div class="accordion" id="accordionExample">
@@ -77,13 +83,17 @@
                         class="accordion-collapse collapse show"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            ¡Si! Hacemos envios a todo el pais, tambien a Chile,
-                            Brasil y Uruguay. En caso de tener que realizar un
-                            cambio los realizamos unicamente en el local y por
-                            cualquier
-                            prenda. Si hay diferencia de precio tendras que
-                            abonarla o te la
-                            abonaremos.
+                            <h3>¡Si! Hacemos envios a todo el pais, tambien a Chile,
+                                Brasil y Uruguay. En caso de tener que realizar un
+                                cambio los realizamos unicamente en el local y por
+                                cualquier
+                                prenda. Si hay diferencia de precio tendras que
+                                abonarla o te la
+                                abonaremos.
+                            </h3>
+                            <section class="foto">
+                                <img src="../css/assets/img/envios.avif" alt="bandera Chile Argentina Urugay y Brasil" class="foto-envios">
+                            </section>
                         </div>
                     </div>
                 </div>
@@ -99,8 +109,13 @@
                     <div id="collapseTwo" class="accordion-collapse collapse"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            No, todos los productos que se encuentran en la
+                            <h3>
+                                No, todos los productos que se encuentran en la
                             pagina son todos originales importados de E.E.U.U.
+                            </h3>
+                            <section class="foto">
+                                <img src="../css/assets/img/no-fakes.jpg" alt="no replicas" class="foto-no">
+                            </section>
                         </div>
                     </div>
                 </div>
@@ -116,7 +131,12 @@
                     <div id="collapseThree" class="accordion-collapse collapse"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Aceptamos todos los metodos de pago
+                            <h3>
+                                Aceptamos todos los metodos de pago
+                            </h3>
+                            <section class="foto">
+                                <img src="../css/assets/img/tarjetas_1_.png" alt="metodos de pago" class="foto-pago">
+                            </section>
                         </div>
                     </div>
                 </div>
@@ -124,6 +144,7 @@
             </div>
         </main>
         <footer class="footerpre">
+            <!-- Contenido Footer -->
             <section class="fondo-footer-preguntas">
                 <section class="titulofooter">
                     <h2 id="titulo">ICE DROPS</h2>
