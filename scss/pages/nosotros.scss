@@ -10,23 +10,23 @@
 }
 /* main nosotros */
 .main-nos{
-    padding: 2%;
-    margin-left: 8%;
+    padding: 5%;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
     #carta{
-        width: 100%;
+        width: 50%;
         
         .card-title{
             font-size: 25px;
         }
-        .tienda{
-            height: 50%;
-            width: 100%;
-            .foto-tienda{
-                width: 150px;
-                
-            }
-            
-        }
+        
+    }
+    #carouselExampleAutoplaying{
+        width: 50%;
+        
     }
 }
 /* footer nosotros */
