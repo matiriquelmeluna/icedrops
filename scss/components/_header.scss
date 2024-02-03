@@ -1,5 +1,8 @@
 /* scss header */
 
+
+$gris: #949494;
+
 header {
     width: 100%;
     height: 25%;
@@ -19,18 +22,21 @@ header {
 
             #titulo {
                 font-size: 35px;
-                -webkit-text-fill-color: #949494;
+                color: $gris;
                 height: 80%;
+                
                 font-family: 'Train One', system-ui;
+                
                 font-style: italic;
             }
 
             #substitulo {
                 font-size: 18px;
-                -webkit-text-fill-color: #949494;
+                color: $gris;
                 font-family: 'Train One', system-ui;
                 font-style: italic;
                 font-weight: 580;
+                
             }
         }
 
@@ -46,7 +52,7 @@ header {
                 padding-left: 0%;
                 padding: 0%;
                 .nav-link{
-                    color: #949494;
+                    color: $gris;
                 }
                 .nav-link:hover{
                     color: red;
