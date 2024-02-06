@@ -17,10 +17,25 @@
         margin-top: 5%;
         font-size: 25px;
     }
-    .card{
-        margin: 5%;
-        .card-title{
-            font-size: 22px;
+    .cardscontacto {
+        justify-items: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+
+        .card {
+            width: 50%;
+            margin-top: 2%;
+            margin-bottom: 0%;
+            .card-title{
+                font-size: 22px;
+            }
+        }
+        #carouselExampleAutoplaying{
+            width: 50%;
+            margin-top: 2%;
+
         }
     }
     

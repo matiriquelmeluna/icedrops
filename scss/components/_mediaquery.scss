@@ -74,18 +74,19 @@
         .cardscontacto {
             justify-items: center;
             align-items: center;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows:  repeat(5, 1fr);
-            gap: 5%;
-            padding: 5%;
+            display: flex;
+            flex-direction: column;
+
 
             .card {
-                margin: 0%;
                 width: 50%;
+                margin-top: 2%;
+                margin-bottom: 0%;
             }
             #carouselExampleAutoplaying{
                 width: 50%;
+                margin-top: 2%;
+
             }
         }
 
@@ -179,20 +180,20 @@
     .main-contacto {
         justify-items: center;
         .cardscontacto {
+            display: flex;
+            flex-direction: column;
             justify-items: center;
             align-items: center;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows:  repeat(5, 1fr);
-            gap: 5%;
-            padding: 5%;
+            
 
             .card {
-                margin: 0%;
                 width: 50%;
+                margin-top: 2%;
+                margin-bottom: 0%;
             }
             #carouselExampleAutoplaying{
                 width: 50%;
+                margin-top: 2%;
             }
         }
 

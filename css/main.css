@@ -527,11 +527,23 @@ main .morepr {
   margin-top: 5%;
   font-size: 25px;
 }
-.main-contacto .card {
-  margin: 5%;
+.main-contacto .cardscontacto {
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
-.main-contacto .card .card-title {
+.main-contacto .cardscontacto .card {
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+.main-contacto .cardscontacto .card .card-title {
   font-size: 22px;
+}
+.main-contacto .cardscontacto #carouselExampleAutoplaying {
+  width: 50%;
+  margin-top: 2%;
 }
 
 /* footer contacto*/
@@ -696,18 +708,17 @@ main .morepr {
   .main-contacto .cardscontacto {
     justify-items: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    gap: 5%;
-    padding: 5%;
+    display: flex;
+    flex-direction: column;
   }
   .main-contacto .cardscontacto .card {
-    margin: 0%;
     width: 50%;
+    margin-top: 2%;
+    margin-bottom: 0%;
   }
   .main-contacto .cardscontacto #carouselExampleAutoplaying {
     width: 50%;
+    margin-top: 2%;
   }
   .main-pago .cartel1pago {
     font-size: 20px;
@@ -771,20 +782,19 @@ main .morepr {
     justify-items: center;
   }
   .main-contacto .cardscontacto {
+    display: flex;
+    flex-direction: column;
     justify-items: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    gap: 5%;
-    padding: 5%;
   }
   .main-contacto .cardscontacto .card {
-    margin: 0%;
     width: 50%;
+    margin-top: 2%;
+    margin-bottom: 0%;
   }
   .main-contacto .cardscontacto #carouselExampleAutoplaying {
     width: 50%;
+    margin-top: 2%;
   }
   .main-pagado {
     margin-top: 10%;
