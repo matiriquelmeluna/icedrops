@@ -488,11 +488,8 @@ main .morepr {
   justify-content: space-between;
   align-items: center;
 }
-.main-nos #carta {
-  width: 50%;
-}
-.main-nos #carta .card-title {
-  font-size: 25px;
+.main-nos #titulo-nosotros {
+  font-size: 30px;
 }
 .main-nos #carouselExampleAutoplaying {
   width: 50%;
@@ -692,15 +689,25 @@ main .morepr {
   .main-preguntas .preguntapre {
     font-size: 25px;
   }
+  .main-contacto {
+    justify-items: center;
+    margin-bottom: 20%;
+  }
   .main-contacto .cardscontacto {
+    justify-items: center;
+    align-items: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
     gap: 5%;
     padding: 5%;
   }
   .main-contacto .cardscontacto .card {
     margin: 0%;
+    width: 50%;
+  }
+  .main-contacto .cardscontacto #carouselExampleAutoplaying {
+    width: 50%;
   }
   .main-pago .cartel1pago {
     font-size: 20px;
@@ -760,15 +767,24 @@ main .morepr {
   .main-preguntas .preguntapre {
     font-size: 30px;
   }
+  .main-contacto {
+    justify-items: center;
+  }
   .main-contacto .cardscontacto {
+    justify-items: center;
+    align-items: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
     gap: 5%;
     padding: 5%;
   }
   .main-contacto .cardscontacto .card {
     margin: 0%;
+    width: 50%;
+  }
+  .main-contacto .cardscontacto #carouselExampleAutoplaying {
+    width: 50%;
   }
   .main-pagado {
     margin-top: 10%;

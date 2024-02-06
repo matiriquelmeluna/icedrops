@@ -69,15 +69,23 @@
     }
 
     .main-contacto {
+        justify-items: center;
+        margin-bottom: 20%;
         .cardscontacto {
+            justify-items: center;
+            align-items: center;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+            grid-template-rows:  repeat(5, 1fr);
             gap: 5%;
             padding: 5%;
 
             .card {
                 margin: 0%;
+                width: 50%;
+            }
+            #carouselExampleAutoplaying{
+                width: 50%;
             }
         }
 
@@ -169,15 +177,22 @@
     }
 
     .main-contacto {
+        justify-items: center;
         .cardscontacto {
+            justify-items: center;
+            align-items: center;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+            grid-template-rows:  repeat(5, 1fr);
             gap: 5%;
             padding: 5%;
 
             .card {
                 margin: 0%;
+                width: 50%;
+            }
+            #carouselExampleAutoplaying{
+                width: 50%;
             }
         }
 
