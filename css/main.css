@@ -11,48 +11,107 @@ header {
   width: 100%;
   height: 25%;
 }
-header .itemsheader {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+header .navbar-expand-lg {
+  padding: 0%;
 }
-header .itemsheader #logo {
-  margin-top: 5%;
+header .navbar-expand-lg .container-fluid {
+  justify-content: space-between;
+  align-items: left;
+  padding: 5%;
+}
+header .navbar-expand-lg .container-fluid .logo {
   text-align: center;
   height: 10%;
   justify-content: center;
 }
-header .itemsheader #logo #titulo {
+header .navbar-expand-lg .container-fluid .logo .titulo {
   font-size: 35px;
   color: #949494;
   height: 80%;
   font-family: "Train One", system-ui;
   font-style: italic;
+  text-decoration: none;
 }
-header .itemsheader #logo #substitulo {
+header .navbar-expand-lg .container-fluid .logo .substitulo {
   font-size: 18px;
   color: #949494;
   font-family: "Train One", system-ui;
   font-style: italic;
   font-weight: 580;
 }
-header .itemsheader #barra {
+header .navbar-expand-lg .container-fluid .menu-button {
+  border: 0;
+}
+header .navbar-expand-lg .container-fluid .menu-button:focus {
+  box-shadow: none;
+}
+header .navbar-expand-lg .container-fluid .navbar-toggler-icon {
+  background-image: url(../../assets/img/icono-menu-hamburguesa.png);
+}
+header .navbar-expand-lg .container-fluid .navbar-collapse {
+  flex-grow: 0;
+}
+header .navbar-expand-lg .container-fluid .navbar-collapse .barra {
+  font-size: 22px;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Bebas Neue", sans-serif;
+}
+header .navbar-expand-lg .container-fluid .navbar-collapse .barra ul {
+  list-style-type: none;
+  padding-left: 0%;
+  padding: 0%;
+}
+header .navbar-expand-lg .container-fluid .navbar-collapse .barra ul .nav-link {
+  color: #949494;
+}
+header .navbar-expand-lg .container-fluid .navbar-collapse .barra ul .nav-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+header .itemsheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header .itemsheader .logo {
+  margin-top: 5%;
+  text-align: center;
+  height: 10%;
+  justify-content: center;
+}
+header .itemsheader .logo .titulo {
+  font-size: 35px;
+  color: #949494;
+  height: 80%;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+}
+header .itemsheader .logo .substitulo {
+  font-size: 18px;
+  color: #949494;
+  font-family: "Train One", system-ui;
+  font-style: italic;
+  font-weight: 580;
+}
+header .itemsheader .barra {
   font-size: 22px;
   text-align: center;
   display: flex;
   flex-direction: column;
   font-family: "Bebas Neue", sans-serif;
 }
-header .itemsheader #barra ul {
+header .itemsheader .barra ul {
   list-style-type: none;
   padding-left: 0%;
   padding: 0%;
 }
-header .itemsheader #barra ul .nav-link {
+header .itemsheader .barra ul .nav-link {
   color: #949494;
 }
-header .itemsheader #barra ul .nav-link:hover {
+header .itemsheader .barra ul .nav-link:hover {
   color: red;
   text-decoration: underline;
 }
@@ -63,44 +122,52 @@ footer {
   height: 25%;
   text-align: center;
 }
-footer #titulofooter {
+footer .titulofooter {
   text-align: center;
   height: 20%;
   width: 100%;
   margin-bottom: 2%;
 }
-footer #titulofooter #titulo {
+footer .titulofooter .titulo {
   font-size: 35px;
   -webkit-text-fill-color: #ffffff;
   height: 80%;
   font-family: "Train One", system-ui;
   font-style: italic;
 }
-footer #titulofooter #substitulo {
+footer .titulofooter .substitulo {
   font-size: 18px;
   -webkit-text-fill-color: #ffffff;
   font-family: "Train One", system-ui;
   font-style: italic;
 }
-footer #suscripcion {
+footer .suscripcion {
   -webkit-text-fill-color: #979393;
   align-self: center;
+  align-content: center;
+  justify-content: center;
   font-size: 10px;
   margin-bottom: 5%;
   font-family: "Bebas Neue", sans-serif;
-  width: 70%;
+  width: 50%;
 }
-footer #suscripcion #cartelsus {
+footer .suscripcion .cartelsus {
   font-size: 15px;
   margin-top: 5%;
 }
-footer #suscripcion #rellenar {
+footer .suscripcion .rellenar {
   display: flex;
+  width: 100%;
 }
-footer #suscripcion #email {
-  width: 90%;
+footer .suscripcion .rellenar .email {
+  width: 70%;
+  font-size: 15px;
 }
-footer #copy {
+footer .suscripcion .rellenar .boton {
+  width: 30%;
+  font-size: 15px;
+}
+footer .copy {
   width: 100%;
   font-size: 16px;
   -webkit-text-fill-color: #979393;
@@ -110,8 +177,8 @@ footer #copy {
 
 /* SCSS INDEX*/
 /* header index */
-.fondo-header-index {
-  background-image: url(./assets/img/header-kanye.png);
+.container-index {
+  background-image: url(../../assets/img/header-kanye.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -146,7 +213,7 @@ main .productos .cards .col .forum {
   border-radius: 20px;
   overflow: hidden;
 }
-main .productos .cards .col .forum #descuento {
+main .productos .cards .col .forum .descuento {
   font-weight: bold;
   height: 7%;
   width: 30%;
@@ -154,19 +221,20 @@ main .productos .cards .col .forum #descuento {
   margin: 10%;
   font-size: 21px;
 }
-main .productos .cards .col .forum #bb {
+main .productos .cards .col .forum .bb {
   width: 90%;
   height: 50%;
   margin-top: -8%;
 }
-main .productos .cards .col .forum #nombreproducto {
+main .productos .cards .col .forum .nombreproducto {
   font-size: 19px;
 }
-main .productos .cards .col .forum #precioproducto {
+main .productos .cards .col .forum .precioproducto {
   font-size: 16px;
 }
-main .productos .cards .col .forum #boton-comprar {
+main .productos .cards .col .forum .boton-comprar {
   margin-bottom: 5%;
+  color: grey;
 }
 main .productos .cards .col .travis {
   width: 100%;
@@ -176,7 +244,7 @@ main .productos .cards .col .travis {
   border-radius: 20px;
   overflow: hidden;
 }
-main .productos .cards .col .travis #descuento {
+main .productos .cards .col .travis .descuento {
   font-weight: bold;
   height: 3%;
   width: 30%;
@@ -184,19 +252,19 @@ main .productos .cards .col .travis #descuento {
   margin: 10%;
   font-size: 21px;
 }
-main .productos .cards .col .travis #am1index {
+main .productos .cards .col .travis .am1index {
   width: 70%;
   height: 27%;
   margin-top: 27%;
   margin-bottom: 2%;
 }
-main .productos .cards .col .travis #nombreproducto {
+main .productos .cards .col .travis .nombreproducto {
   font-size: 19px;
 }
-main .productos .cards .col .travis #precioproducto {
+main .productos .cards .col .travis .precioproducto {
   font-size: 16px;
 }
-main .productos .cards .col .travis #boton-comprar {
+main .productos .cards .col .travis .boton-comprar {
   margin-bottom: 5%;
 }
 main .productos .cards .col .stussy {
@@ -207,7 +275,7 @@ main .productos .cards .col .stussy {
   border-radius: 20px;
   overflow: hidden;
 }
-main .productos .cards .col .stussy #descuento {
+main .productos .cards .col .stussy .descuento {
   font-weight: bold;
   height: 3%;
   width: 30%;
@@ -215,18 +283,18 @@ main .productos .cards .col .stussy #descuento {
   margin: 10%;
   font-size: 21px;
 }
-main .productos .cards .col .stussy #stsy {
+main .productos .cards .col .stussy .stsy {
   width: 60%;
   height: 40%;
   margin-top: 15%;
 }
-main .productos .cards .col .stussy #nombreproducto {
+main .productos .cards .col .stussy .nombreproducto {
   font-size: 19px;
 }
-main .productos .cards .col .stussy #precioproducto {
+main .productos .cards .col .stussy .precioproducto {
   font-size: 16px;
 }
-main .productos .cards .col .stussy #boton-comprar {
+main .productos .cards .col .stussy .boton-comprar {
   margin-bottom: 5%;
 }
 main .productos .cards .col .zip {
@@ -237,7 +305,7 @@ main .productos .cards .col .zip {
   border-radius: 20px;
   overflow: hidden;
 }
-main .productos .cards .col .zip #descuento {
+main .productos .cards .col .zip .descuento {
   font-weight: bold;
   height: 3%;
   width: 30%;
@@ -245,19 +313,19 @@ main .productos .cards .col .zip #descuento {
   margin: 10%;
   font-size: 21px;
 }
-main .productos .cards .col .zip #zippr {
+main .productos .cards .col .zip .zippr {
   width: 55%;
   height: 45%;
   margin-top: 7%;
   margin-bottom: -4%;
 }
-main .productos .cards .col .zip #nombreproducto {
+main .productos .cards .col .zip .nombreproducto {
   font-size: 19px;
 }
-main .productos .cards .col .zip #precioproducto {
+main .productos .cards .col .zip .precioproducto {
   font-size: 16px;
 }
-main .productos .cards .col .zip #boton-comprar {
+main .productos .cards .col .zip .boton-comprar {
   margin-bottom: 5%;
 }
 main .productosmenu {
@@ -288,8 +356,8 @@ main .productosmenu .nav-link:hover {
 
 /* scss productos */
 /* header productos*/
-.fondo-header-productos {
-  background-image: url(./assets/img/header-drake.png);
+.container-productos {
+  background-image: url(../../assets/img/header-drake.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -305,19 +373,19 @@ main .col .balaclava {
   border-radius: 20px;
   overflow: hidden;
 }
-main .col .balaclava #sprm {
+main .col .balaclava .sprm {
   width: 90%;
   height: 40%;
   margin-top: 36%;
   margin-bottom: 2%;
 }
-main .col .balaclava #nombreproducto {
+main .col .balaclava .nombreproducto {
   font-size: 19px;
 }
-main .col .balaclava #precioproducto {
+main .col .balaclava .precioproducto {
   font-size: 16px;
 }
-main .col .balaclava #boton-comprar {
+main .col .balaclava .boton-comprar {
   margin-bottom: 5%;
 }
 main .col .bearbrick {
@@ -328,19 +396,19 @@ main .col .bearbrick {
   border-radius: 20px;
   overflow: hidden;
 }
-main .col .bearbrick #brb {
+main .col .bearbrick .brb {
   width: 65%;
   height: 40%;
   margin-top: 40%;
   margin-bottom: -1%;
 }
-main .col .bearbrick #nombreproducto {
+main .col .bearbrick .nombreproducto {
   font-size: 19px;
 }
-main .col .bearbrick #precioproducto {
+main .col .bearbrick .precioproducto {
   font-size: 16px;
 }
-main .col .bearbrick #boton-comprar {
+main .col .bearbrick .boton-comprar {
   margin-bottom: 5%;
 }
 main .col .jarritos {
@@ -351,19 +419,19 @@ main .col .jarritos {
   border-radius: 20px;
   overflow: hidden;
 }
-main .col .jarritos #jarritospr {
+main .col .jarritos .jarritospr {
   width: 80%;
   height: 50%;
   margin-top: 28%;
   margin-bottom: -10%;
 }
-main .col .jarritos #nombreproducto {
+main .col .jarritos .nombreproducto {
   font-size: 19px;
 }
-main .col .jarritos #precioproducto {
+main .col .jarritos .precioproducto {
   font-size: 16px;
 }
-main .col .jarritos #boton-comprar {
+main .col .jarritos .boton-comprar {
   margin-bottom: 5%;
 }
 main .col .beanie {
@@ -374,19 +442,19 @@ main .col .beanie {
   border-radius: 20px;
   overflow: hidden;
 }
-main .col .beanie #beaniepr {
+main .col .beanie .beaniepr {
   width: 80%;
   height: 40%;
   margin-top: 31%;
   margin-bottom: 2%;
 }
-main .col .beanie #nombreproducto {
+main .col .beanie .nombreproducto {
   font-size: 19px;
 }
-main .col .beanie #precioproducto {
+main .col .beanie .precioproducto {
   font-size: 16px;
 }
-main .col .beanie #boton-comprar {
+main .col .beanie .boton-comprar {
   margin-bottom: 5%;
 }
 main .morepr {
@@ -410,8 +478,8 @@ main .morepr {
 
 /* scss preguntas */
 /* header preguntas*/
-.fondo-header-preguntas {
-  background-image: url(./assets/img/header-harakiri.png);
+.container-preguntas {
+  background-image: url(../../assets/img/barderos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -428,6 +496,9 @@ main .morepr {
 }
 .main-preguntas .preguntapre {
   font-size: 20px;
+}
+.main-preguntas .accordion-header {
+  color: aqua;
 }
 .main-preguntas #accordionExample {
   padding: 10%;
@@ -455,7 +526,7 @@ main .morepr {
   height: 25%;
   text-align: center;
   display: flex;
-  background-color: #5e0000;
+  background-color: #141630;
   display: flex;
   flex-direction: column;
   -webkit-text-fill-color: #ffffff;
@@ -472,8 +543,8 @@ main .morepr {
 
 /* scss nosotros */
 /* header nosotros */
-.fondo-header-nosotros {
-  background-image: url(./assets/img/header-ysy.png);
+.container-nosotros {
+  background-image: url(../../assets/img/ysy-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -491,9 +562,6 @@ main .morepr {
 .main-nos #titulo-nosotros {
   font-size: 30px;
 }
-.main-nos #carouselExampleAutoplaying {
-  width: 50%;
-}
 
 /* footer nosotros */
 .fondo-footer-nosotros {
@@ -501,7 +569,7 @@ main .morepr {
   -webkit-text-fill-color: #ffffff;
   font-family: "Train One", system-ui;
   font-style: italic;
-  background-color: rgb(65, 0, 139);
+  background-color: rgb(100, 0, 139);
   width: 100%;
   height: 100%;
   display: flex;
@@ -510,8 +578,8 @@ main .morepr {
 
 /* scss contacto */
 /* header contacto*/
-.fondo-header-contacto {
-  background-image: url(./assets/img/header-neo.png);
+.container-contacto {
+  background-image: url(../../assets/img/header-neo.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -562,8 +630,8 @@ main .morepr {
 
 /* scss pago */
 /* header pago*/
-.fondo-header-pago {
-  background-image: url(./assets/img/header-pago.png);
+.container-pago {
+  background-image: url(../../assets/img/header-pago.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -579,27 +647,33 @@ main .morepr {
   width: 100%;
   display: grid;
   font-size: 10px;
+  font-size: 15px;
 }
 .main-pago .formulario .cartel1pago {
-  font-size: 16px;
+  font-size: 30px;
 }
 .main-pago .formulario .cartel2 {
-  font-size: 13px;
+  font-size: 20px;
 }
 .main-pago .formulario .datospago {
-  width: 100%;
+  width: 80%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 .main-pago .formulario .felx {
   display: flex;
-  width: 100%;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 10%;
 }
 .main-pago .formulario .felx .deptopago {
   width: 50%;
 }
 .main-pago .formulario .productosmenupago {
   list-style: none;
+}
+.main-pago .formulario #form {
+  font-size: 20px;
 }
 
 /* footer pago*/
@@ -618,8 +692,8 @@ main .morepr {
 
 /* scss pagado */
 /* header pagado*/
-.fondo-header-pagado {
-  background-image: url(./assets/img/header-pagado.png);
+.container-pagado {
+  background-image: url(../../assets/img/header-pagado.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -653,20 +727,19 @@ main .morepr {
 
 /* mediaquery scss*/
 @media screen and (min-width: 768px) {
-  header .itemsheader {
+  header .container-fluid {
     flex-direction: row;
     padding: 5%;
   }
-  header .itemsheader .titulosindex {
-    font-size: 50px;
+  header .container-fluid .logo {
+    text-align: center;
+    height: 10%;
+    justify-content: center;
   }
-  header .itemsheader .substituloindex {
-    font-size: 28px;
-  }
-  header .itemsheader #barra {
+  header .container-fluid .barra {
     font-size: 20px;
   }
-  header .itemsheader #barra ul {
+  header .container-fluid .barra ul {
     list-style-type: none;
   }
   main .productos {
@@ -726,22 +799,24 @@ main .morepr {
   .main-pago .cartel2 {
     font-size: 17px;
   }
+  footer .suscripcion {
+    width: 40%;
+  }
 }
 @media screen and (min-width: 1024px) {
-  header .itemsheader {
+  header .container-fluid {
     flex-direction: row-reverse;
     padding: 5%;
   }
-  header .itemsheader .titulo {
-    font-size: 50px;
+  header .container-fluid .logo {
+    text-align: center;
+    height: 10%;
+    justify-content: center;
   }
-  header .itemsheader .substitulo {
-    font-size: 28px;
-  }
-  header .itemsheader #barra {
+  header .container-fluid .barra {
     font-size: 20px;
   }
-  header .itemsheader #barra ul {
+  header .container-fluid .barra ul {
     list-style-type: none;
   }
   main .productos {
@@ -802,6 +877,9 @@ main .morepr {
   }
   .footer-pagado {
     margin-top: 10%;
+  }
+  footer .suscripcion {
+    width: 40%;
   }
 }
 

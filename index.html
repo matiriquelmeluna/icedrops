@@ -3,13 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Link fuentes-->
+        <!-- Link fuente main -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
             rel="stylesheet">
 
+        <!-- Link fuente logo -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -31,45 +32,59 @@
 
         <header>
             <!-- Menu de Navegación -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid container-index">
 
-            <section class="fondo-header-index">
-                <section class="itemsheader">
-                    <section id="logo">
-                        <h2 id="titulo">ICE DROPS</h2>
-                        <h2 id="substitulo">step into distinction</h2>
-                    </section>
+                        <div class="logo">
+                            <a class="titulo" href="./index.html">ICE DROPS</a>
+                            <h2 class="substitulo">step into distinction</h2>
+                        </div>
+                        <button class="navbar-toggler menu-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse menu"
+                            id="navbarSupportedContent">
+                            <nav class="barra">
+                                <ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="./index.html">INICIO</a>
+                                    </li>
 
-                    <nav id="barra">
-                        <ul>
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./index.html">INICIO</a>
-                            </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="./pages/productos.html">PRODUCTOS</a>
+                                    </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./pages/productos.html">PRODUCTOS</a>
-                            </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="./pages/preguntas.html">PREGUNTAS</a>
+                                    </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./pages/preguntas.html">PREGUNTAS</a>
-                            </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="./pages/nosotros.html">NOSOTROS</a>
+                                    </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./pages/nosotros.html">NOSOTROS</a>
-                            </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="./pages/contacto.html">CONTACTO</a>
+                                    </li>
+                                </ul>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./pages/contacto.html">CONTACTO</a>
-                            </li>
-                        </ul>
+                            </nav>
 
-                    </nav>
-                </section>
-            </section>
+                        </div>
+                    </div>
+                </nav>
+            
+
+            
         </header>
 
         <main class="main-index">
@@ -79,16 +94,16 @@
                 <div class="cards">
 
                     <div class="col">
-                        <section class="forum">
-                            <h2 id="descuento">22% off</h2>
-                            <img src="./css/assets/img/forum.jpg"
-                                alt="adidas forum bad bunny" id="bb">
-                            <h2 id="nombreproducto">Adidas Bad Bunny</h2>
-                            <h3 id="precioproducto">USD $360</h3>
+                        <div class="forum">
+                            <h2 class="descuento">22% off</h2>
+                            <img src="./assets/img/forum.jpg"
+                                alt="adidas forum bad bunny" class="bb">
+                            <h2 class="nombreproducto">Adidas Bad Bunny</h2>
+                            <h3 class="precioproducto">USD $360</h3>
                             <button type="button" class="btn btn-primary"
                                 data-bs-toggle="modal"
                                 data-bs-target="#exampleModal"
-                                id="boton-comprar">
+                                class="boton-comprar">
                                 COMPRAR
                             </button>
                             <div class="modal fade" id="exampleModal"
@@ -112,82 +127,84 @@
                                 </div>
                             </div>
 
-                        </section>
+                        </div>
                     </div>
 
                     <div class="col">
-                        <section class="travis">
-                            <h2 id="descuento">22% off</h2>
-                            <img src="./css/assets/img/am1-travis.webp"
+                        <div class="travis">
+                            <h2 class="descuento">22% off</h2>
+                            <img src="./assets/img/am1-travis.webp"
                                 alt="nike air max 1 travis scott"
-                                id="am1index">
-                            <h2 id="nombreproducto">Nike Air Max 1 Travis</h2>
-                            <h3 id="precioproducto">USD $247</h3>
+                                class="am1index">
+                            <h2 class="nombreproducto">Nike Air Max 1
+                                Travis</h2>
+                            <h3 class="precioproducto">USD $247</h3>
                             <a class="btn btn-primary" href="./pages/pago.html"
-                                role="button" id="boton-comprar">COMPRAR</a>
-                        </section>
+                                role="button" class="boton-comprar">COMPRAR</a>
+                        </div>
                     </div>
 
                     <div class="col">
-                        <section class="stussy">
-                            <h2 id="descuento">22% off</h2>
-                            <img src="./css/assets/img/remera-stussy.jpg"
-                                alt="remera stussy x nike" id="stsy">
-                            <h2 id="nombreproducto">Stussy t-shirt</h2>
-                            <h3 id="precioproducto">USD $120</h3>
+                        <div class="stussy">
+                            <h2 class="descuento">22% off</h2>
+                            <img src="./assets/img/remera-stussy.jpg"
+                                alt="remera stussy x nike" class="stsy">
+                            <h2 class="nombreproducto">Stussy t-shirt</h2>
+                            <h3 class="precioproducto">USD $120</h3>
                             <a class="btn btn-primary" href="./pages/pago.html"
-                                role="button" id="boton-comprar">COMPRAR</a>
-                        </section>
+                                role="button" class="boton-comprar">COMPRAR</a>
+                        </div>
                     </div>
 
                     <div class="col">
-                        <section class="zip">
-                            <h2 id="descuento">30% off</h2>
-                            <img src="./css/assets/img/supreme-zip.webp"
-                                alt="supreme zip negra" id="zippr">
-                            <h2 id="nombreproducto">Supreme Zip</h2>
+                        <div class="zip">
+                            <h2 class="descuento">30% off</h2>
+                            <img src="./assets/img/supreme-zip.webp"
+                                alt="supreme zip negra" class="zippr">
+                            <h2 class="nombreproducto">Supreme Zip</h2>
 
-                            <h3 id="precioproducto">USD $245</h3>
+                            <h3 class="precioproducto">USD $245</h3>
                             <a class="btn btn-primary" href="./pages/pago.html"
-                                role="button" id="boton-comprar">COMPRAR</a>
-                        </section>
+                                role="button" class="boton-comprar">COMPRAR</a>
+                        </div>
                     </div>
                 </div>
 
-                <section class="productosmenu">
+                <div class="productosmenu">
                     <li class="nav-item">
                         <a class="nav-link"
                             href="./pages/productos.html">PRODUCTOS</a>
                     </li>
-                </section>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footerindex">
+            <!-- Contenido Footer -->
+            <section class="fondo-footer-index">
+                <div class="titulofooter">
+                    <h2 class="titulo">ICE DROPS</h2>
+                    <h2 class="substitulo">Step into Distinction</h2>
+                </div>
+
+                <div class="suscripcion">
+                    <h4 class="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
+                        NOVEDADES</h4>
+                    <form action class="rellenar">
+                        <input type="email" name="email" class="email" required
+                            placeholder="email@example.com">
+                        <input type="submit" class="boton" value="Enviar">
+                    </form>
+
+                </div>
+                <h5 class="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS
+                    RESERVED</h5>
             </section>
 
-            <footer class="footerindex">
-                <!-- Contenido Footer -->
-                <section class="fondo-footer-index">
-                    <section id="titulofooter">
-                        <h2 id="titulo">ICE DROPS</h2>
-                        <h2 id="substitulo">Step into Distinction</h2>
-                    </section>
-
-                    <section id="suscripcion">
-                        <h4 id="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
-                            NOVEDADES</h4>
-                        <form action id="rellenar">
-                            <input type="email" name="email" id="email" required
-                                placeholder="email@example.com">
-                            <input type="submit" id="boton" value="Enviar">
-                        </form>
-
-                    </section>
-                    <h5 id="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS
-                        RESERVED</h5>
-                </section>
-
-            </footer>
-            <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                crossorigin="anonymous"></script>
-        </body>
-    </html>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

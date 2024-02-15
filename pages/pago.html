@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Link fuentes-->
+        <!-- Link fuente main -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
             rel="stylesheet">
 
+        <!-- Link fuente logo -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -31,83 +32,108 @@
     <body>
         <header class="headerpago">
             <!-- Menu de Navegación -->
-            <section class="fondo-header-pago">
-                <section class="itemsheader">
-                    <section id="logo">
-                        <h2 id="titulo">ICE DROPS</h2>
-                        <h2 id="substitulo">step into distinction</h2>
-                    </section>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid container-pago">
 
-                    <nav id="barra">
-                        <ul>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">INICIO</a>
-                            </li>
+                    <div class="logo">
+                        <a class="titulo" href="../index.html">ICE DROPS</a>
+                        <h2 class="substitulo">step into distinction</h2>
+                    </div>
+                    <button class="navbar-toggler menu-button" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse menu"
+                        id="navbarSupportedContent">
+                        <nav class="barra">
+                            <ul>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="../index.html">INICIO</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./productos.html">PRODUCTOS</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="./productos.html">PRODUCTOS</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./preguntas.html">PREGUNTAS</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="./preguntas.html">PREGUNTAS</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="./nosotros.html">NOSOTROS</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">CONTACTO</a>
-                            </li>
-                        </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="./contacto.html">CONTACTO</a>
+                                </li>
+                            </ul>
 
-                    </nav>
-                </section>
+                        </nav>
+
+                    </div>
+                </div>
+            </nav>
         </header>
         <main class="main-pago">
             <!-- Main -->
             <section class="formulario">
                 <h1 class="cartel1pago">INICIAR COMPRA</h1>
 
-                <h3 class="cartel1pago">DATOS DE CONTACTO</h3>
-                <input type="email" name="email" class="datospago" required
-                    placeholder="email@example.com">
-                <h3 class="cartel2">DATOS DEL DESTINATARIO</h3>
-                <input type="text" placeholder="Nombre" class="datospago"
-                    required>
-                <input type="text" placeholder="Apellido" class="datospago"
-                    required>
-                <input type="number" placeholder="Teléfono" class="datospago"
-                    required>
-                <input type="number" placeholder="Código Postal"
-                    class="datospago"
-                    required>
-                <input type="text" placeholder="Calle" class="datospago"
-                    required>
-                <section class="felx">
-                    <input type="number" placeholder="Número" class="deptopago">
-                    <input type="number" placeholder="Departamento (Opcional)"
-                        class="deptopago">
-                </section>
+                <form>
+                    <h3 class="cartel2">DATOS DE CONTACTO</h3>
+                    <input type="email" name="email" class="datospago" required
+                        placeholder="email@example.com">
+                    <h3 class="cartel2">DATOS DEL DESTINATARIO</h3>
+                    <input type="text" placeholder="Nombre" class="datospago"
+                        required>
+                    <input type="text" placeholder="Apellido" class="datospago"
+                        required>
+                    <input type="number" placeholder="Teléfono"
+                        class="datospago"
+                        required>
+                    <input type="number" placeholder="Código Postal"
+                        class="datospago"
+                        required>
+                    <input type="text" placeholder="Calle" class="datospago"
+                        required>
+                    <section class="felx">
+                        <input type="number" placeholder="Número"
+                            class="deptopago">
+                        <input type="number"
+                            placeholder="Departamento (Opcional)"
+                            class="deptopago">
+                    </section>
 
-                <input type="text" placeholder="Barrio (Opcional)"
-                    class="datospago">
-                <h3 class="cartel2">DATOS DE FACTURACIÓN</h3>
-                <input type="number" placeholder="DNI o CUIL" class="datospago"
-                    required>
-                <h3 class="cartel2">MEDIO DE PAGO (solo tarjeta)</h3>
-                <input type="number" placeholder="Número de tarjeta"
-                    class="datospago" required>
-                <input type="text" placeholder="Titular de tarjeta"
-                    class="datospago" required>
-                <input type="number" placeholder="Cantidad de cuotas"
-                    class="datospago" required>
+                    <input type="text" placeholder="Barrio (Opcional)"
+                        class="datospago">
+                    <h3 class="cartel2">DATOS DE FACTURACIÓN</h3>
+                    <input type="number" placeholder="DNI o CUIL"
+                        class="datospago"
+                        required>
+                    <h3 class="cartel2">MEDIO DE PAGO (solo tarjeta)</h3>
+                    <input type="number" placeholder="Número de tarjeta"
+                        class="datospago" required>
+                    <input type="text" placeholder="Titular de tarjeta"
+                        class="datospago" required>
+                    <input type="number" placeholder="Cantidad de cuotas"
+                        class="datospago" required>
 
-                <li class="productosmenupago">
-                    <a class="btn btn-dark" href="./pagado.html"
-                        role="button">PAGAR</a>
+                    
 
-                </li>
+                </form>
+                <a href="./pagado.html" id="enviar">
+                    <input type="submit" placeholder="ENVIAR" >
+                </a>
+
             </section>
 
         </main>
@@ -115,21 +141,22 @@
             <!-- Contenido Footer -->
             <section class="fondo-footer-pago">
 
-                <section class="titulofooter">
-                    <h2 id="titulo">ICE DROPS</h2>
-                    <h2 id="substitulo">Step into Distinction</h2>
-                </section>
+                <div class="titulofooter">
+                    <h2 class="titulo">ICE DROPS</h2>
+                    <h2 class="substitulo">Step into Distinction</h2>
+                </div>
 
-                <section id="suscripcion">
-                    <h4 id="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
+                <div class="suscripcion">
+                    <h4 class="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
                         NOVEDADES</h4>
-                    <form action id="rellenar">
-                        <input type="email" name="email" id="email" required
+                    <form action class="rellenar">
+                        <input type="email" name="email" class="email" required
                             placeholder="email@example.com">
-                        <input type="submit" id="boton" value="Enviar">
+                        <input type="submit" class="boton" value="Enviar">
                     </form>
-                </section>
-                <h5 id="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS
+
+                </div>
+                <h5 class="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS
                     RESERVED</h5>
             </section>
         </footer>

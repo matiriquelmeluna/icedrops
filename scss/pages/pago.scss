@@ -1,8 +1,8 @@
 /* scss pago */
 
 /* header pago*/
-.fondo-header-pago {
-    background-image: url(./assets/img/header-pago.png);
+.container-pago {
+    background-image: url(../../assets/img/header-pago.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -17,26 +17,32 @@
         width: 100%;
         display: grid;
         font-size: 10px;
+        font-size: 15px;
         .cartel1pago{
-            font-size: 16px;
+            font-size: 30px;
         }
         .cartel2{
-            font-size: 13px;
+            font-size: 20px;
         }
         .datospago {
-            width: 100%;
+            width: 80%;
             margin-top: 2%;
             margin-bottom: 2%;
         }
         .felx {
             display: flex;
-            width: 100%;
+            flex-direction: row;
+            width: 80%;
+            margin-left: 10%;
             .deptopago{
                 width: 50%;
             }
         }
         .productosmenupago {
             list-style: none;
+        }
+        #form{
+            font-size: 20px;
         }
     }
 }

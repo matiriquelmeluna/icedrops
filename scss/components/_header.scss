@@ -7,6 +7,73 @@ header {
     width: 100%;
     height: 25%;
 
+    .navbar-expand-lg{
+        padding: 0%;
+        .container-fluid{
+
+            justify-content: space-between;
+            align-items: left;
+            padding: 5%;
+            .logo {
+                
+                text-align: center;
+                height: 10%;
+                justify-content: center;
+    
+                .titulo {
+                    font-size: 35px;
+                    color: $gris;
+                    height: 80%;   
+                    font-family: 'Train One', system-ui;
+                    font-style: italic;
+                    text-decoration: none;
+                }
+    
+                .substitulo {
+                    font-size: 18px;
+                    color: $gris;
+                    font-family: 'Train One', system-ui;
+                    font-style: italic;
+                    font-weight: 580;
+                    
+                }
+            }
+            .menu-button{
+                border: 0;
+            }
+            .menu-button:focus{
+                box-shadow: none;
+            }
+            .navbar-toggler-icon{
+                background-image: url(../../assets/img/icono-menu-hamburguesa.png);
+            }
+            .navbar-collapse{
+                flex-grow: 0;
+                .barra {
+                    font-size: 22px;
+                    margin-top: 2%;
+                    display: flex;
+                    flex-direction: column;
+                    font-family: 'Bebas Neue', sans-serif;
+        
+                    ul {
+                        list-style-type: none;
+                        padding-left: 0%;
+                        padding: 0%;
+                        .nav-link{
+                            color: $gris;
+                        }
+                        .nav-link:hover{
+                            color: red;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    
     .itemsheader {
 
         display: flex;
@@ -14,13 +81,13 @@ header {
         justify-content: space-between;
         align-items: center;
 
-        #logo {
+        .logo {
             margin-top: 5%;
             text-align: center;
             height: 10%;
             justify-content: center;
 
-            #titulo {
+            .titulo {
                 font-size: 35px;
                 color: $gris;
                 height: 80%;
@@ -30,7 +97,7 @@ header {
                 font-style: italic;
             }
 
-            #substitulo {
+            .substitulo {
                 font-size: 18px;
                 color: $gris;
                 font-family: 'Train One', system-ui;
@@ -40,7 +107,7 @@ header {
             }
         }
 
-        #barra {
+        .barra {
             font-size: 22px;
             text-align: center;
             display: flex;

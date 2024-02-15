@@ -6,13 +6,13 @@ footer{
     width: 100%;
     height: 25%;
     text-align: center;
-    #titulofooter{
+    .titulofooter{
         text-align: center;
         height: 20%;
         width: 100%;
 
         margin-bottom: 2%;
-        #titulo {
+        .titulo {
             font-size: 35px;
             -webkit-text-fill-color: #ffffff;
             height: 80%;
@@ -20,32 +20,41 @@ footer{
             font-style: italic;
         }
         
-        #substitulo {
+        .substitulo {
             font-size: 18px;
             -webkit-text-fill-color: #ffffff;
             font-family: 'Train One', system-ui;
             font-style: italic;
         }
     }
-    #suscripcion {
+    .suscripcion {
         -webkit-text-fill-color: #979393;
         align-self: center;
+        align-content: center;
+        justify-content: center;
         font-size: 10px;
         margin-bottom: 5%;
         font-family: 'Bebas Neue', sans-serif;
-        width: 70%;
-        #cartelsus{
+        width: 50%;
+        .cartelsus{
             font-size: 15px;
             margin-top: 5%;
         }
-        #rellenar{
+        .rellenar{
             display: flex;
+            width: 100%;
+            .email{
+                width: 70%;
+                font-size: 15px;
+            }
+            .boton{
+                width: 30%;
+                font-size: 15px;
+            }
         }
-        #email{
-            width: 90%;
-        }
+        
     }
-    #copy {
+    .copy {
         width: 100%;
         font-size: 16px;
         -webkit-text-fill-color: #979393;

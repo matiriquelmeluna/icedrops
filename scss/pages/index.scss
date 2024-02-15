@@ -1,8 +1,9 @@
 /* SCSS INDEX*/
 
 /* header index */
-.fondo-header-index {
-    background-image: url(./assets/img/header-kanye.png);
+
+.container-index{
+    background-image: url(../../assets/img/header-kanye.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -40,7 +41,7 @@ main{
                     border-radius: 20px;
                     overflow: hidden;
 
-                    #descuento {
+                    .descuento {
                         font-weight: bold;
                         height: 7%;
                         width: 30%;
@@ -49,22 +50,23 @@ main{
                         font-size: 21px;
                     }
 
-                    #bb {
+                    .bb {
                         width: 90%;
                         height: 50%;
                         margin-top: -8%;
                     }
 
-                    #nombreproducto {
+                    .nombreproducto {
                         font-size: 19px;
                     }
 
-                    #precioproducto {
+                    .precioproducto {
                         font-size: 16px;
                     }
 
-                    #boton-comprar {
+                    .boton-comprar {
                         margin-bottom: 5%;
+                        color: grey;
                     }
                 }
 
@@ -76,7 +78,7 @@ main{
                     border-radius: 20px;
                     overflow: hidden;
 
-                    #descuento {
+                    .descuento {
                         font-weight: bold;
                         height: 3%;
                         width: 30%;
@@ -85,22 +87,22 @@ main{
                         font-size: 21px;
                     }
 
-                    #am1index {
+                    .am1index {
                         width: 70%;
                         height: 27%;
                         margin-top: 27%;
                         margin-bottom: 2%;
                     }
 
-                    #nombreproducto {
+                    .nombreproducto {
                         font-size: 19px;
                     }
 
-                    #precioproducto {
+                    .precioproducto {
                         font-size: 16px;
                     }
 
-                    #boton-comprar {
+                    .boton-comprar {
                         margin-bottom: 5%;
                     }
                 }
@@ -113,7 +115,7 @@ main{
                     border-radius: 20px;
                     overflow: hidden;
 
-                    #descuento {
+                    .descuento {
                         font-weight: bold;
                         height: 3%;
                         width: 30%;
@@ -122,21 +124,21 @@ main{
                         font-size: 21px;
                     }
 
-                    #stsy {
+                    .stsy {
                         width: 60%;
                         height: 40%;
                         margin-top: 15%;
                     }
 
-                    #nombreproducto {
+                    .nombreproducto {
                         font-size: 19px;
                     }
 
-                    #precioproducto {
+                    .precioproducto {
                         font-size: 16px;
                     }
 
-                    #boton-comprar {
+                    .boton-comprar {
                         margin-bottom: 5%;
                     }
                 }
@@ -149,7 +151,7 @@ main{
                     border-radius: 20px;
                     overflow: hidden;
 
-                    #descuento {
+                    .descuento {
                         font-weight: bold;
                         height: 3%;
                         width: 30%;
@@ -158,22 +160,22 @@ main{
                         font-size: 21px;
                     }
 
-                    #zippr {
+                    .zippr {
                         width: 55%;
                         height: 45%;
                         margin-top: 7%;
                         margin-bottom: -4%;
                     }
 
-                    #nombreproducto {
+                    .nombreproducto {
                         font-size: 19px;
                     }
 
-                    #precioproducto {
+                    .precioproducto {
                         font-size: 16px;
                     }
 
-                    #boton-comprar {
+                    .boton-comprar {
                         margin-bottom: 5%;
                     }
                 }

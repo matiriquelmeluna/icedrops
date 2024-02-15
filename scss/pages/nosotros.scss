@@ -1,8 +1,8 @@
 /* scss nosotros */
 
 /* header nosotros */
-.fondo-header-nosotros {
-    background-image: url(./assets/img/header-ysy.png);
+.container-nosotros {
+    background-image: url(../../assets/img/ysy-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -20,11 +20,7 @@
     #titulo-nosotros {
         font-size: 30px;
     }
-
-    #carouselExampleAutoplaying {
-        width: 50%;
-
-    }
+    
 }
 
 /* footer nosotros */
@@ -33,7 +29,7 @@
     -webkit-text-fill-color: #ffffff;
     font-family: 'Train One', system-ui;
     font-style: italic;
-    background-color: rgb(65, 0, 139);
+    background-color: rgb(100, 0, 139);
     width: 100%;
     height: 100%;
     display: flex;

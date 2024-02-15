@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Link fuentes-->
+        <!-- Link fuente main -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
             rel="stylesheet">
 
+        <!-- Link fuente logo -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -31,74 +32,86 @@
     <body>
         <header>
             <!-- Menu de Navegación -->
-            <section class="fondo-header-nosotros">
-                <section class="itemsheader">
-                    <section id="logo">
-                        <h2 id="titulo">ICE DROPS</h2>
-                        <h2 id="substitulo">step into distinction</h2>
-                    </section>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid container-nosotros">
 
-                    <nav id="barra">
-                        <ul>
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="../index.html">INICIO</a>
-                            </li>
+                    <div class="logo">
+                        <a class="titulo" href="../index.html">ICE DROPS</a>
+                        <h2 class="substitulo">step into distinction</h2>
+                    </div>
+                    <button class="navbar-toggler menu-button" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse menu"
+                        id="navbarSupportedContent">
+                        <nav class="barra">
+                            <ul>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="../index.html">INICIO</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./productos.html">PRODUCTOS</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="./productos.html">PRODUCTOS</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./preguntas.html">PREGUNTAS</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="./preguntas.html">PREGUNTAS</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./nosotros.html">NOSOTROS</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="./nosotros.html">NOSOTROS</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./contacto.html">CONTACTO</a>
-                            </li>
-                        </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="./contacto.html">CONTACTO</a>
+                                </li>
+                            </ul>
 
-                    </nav>
-                </section>
-            </section>
+                        </nav>
+
+                    </div>
+                </div>
+            </nav>
 
         </header>
 
         <main class="main-nos">
             <!-- Main -->
             <div class="card" style="width: 18rem;">
-                <img src="../css/assets/img/oip.jpg" class="card-img-top"
-                    alt="Local Argentina">
+
                 <div class="card-body">
-                    <h1 class="card-title" id="titulo-nosotros">¿Quiénes somos?</h1>
+                    <h1 class="card-title" id="titulo-nosotros">¿Quiénes
+                        somos?</h1>
+                    <img src="../assets/img/oip.jpg" class="card-img-top"
+                        alt="Local Argentina">
                     <p class="card-text">En Ice Drops somos un equipo en el cual
                         nos
                         encargamos de traerles lo mejor de la moda actual para
                         poder
-                        vestirlos con el mejor flow. Actualmente tenemos un solo
+                        vestirlos con el mejor flow.
+                    </p>
+                    <img src="../assets/img/madrid.jpg" class="card-img-top"
+                        alt="Local Brasil">
+                    <p class="card-text">Actualmente tenemos un solo
                         local
-                        en Argentina pero proximamente vamos a abrir 2 nuevos
+                        en Argentina pero proximamente vamos a abrir 3 nuevos
                         points,
-                        uno en Montevideo, Uruguay y otro en Sao Paulo,
+                        uno en Montevideo, Uruguay; otro en Santiago, Chile y el
+                        ultimo en Sao Paulo,
                         Brasil.
                     </p>
-                    <p class="card-text">Acá vas a encontrar modelos
-                        exclusivos en el pais al mejor precio. Vas a poder
-                        comprar
-                        con todos los metodos de pago marcas desde Jordan hasta
-                        Bape, tambien colaboraciones y ediciones limitadas como la
-                        colaboracion de Jordan x Travis Scott, Nike x Off White
-                        o las
-                        Adidas x Bad Bunny.
-                    </p>
+                    <img src="../assets/img/sneakers.jpg" class="card-img-top"
+                        alt="Local Uruguay">
                     <p class="card-text">Para todos aquellos que se unen a la
                         familia les damos la bienvenida, y recuerden, si lo
                         queres en
@@ -113,21 +126,23 @@
         <footer>
             <!-- Contenido Footer -->
             <section class="fondo-footer-nosotros">
-                <section class="titulofooter">
-                    <h2 id="titulo">ICE DROPS</h2>
-                    <h2 id="substitulo">Step into Distinction</h2>
-                </section>
+                <div class="titulofooter">
+                    <h2 class="titulo">ICE DROPS</h2>
+                    <h2 class="substitulo">Step into Distinction</h2>
+                </div>
 
-                <section id="suscripcion">
-                    <h4 id="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
+                <div class="suscripcion">
+                    <h4 class="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
                         NOVEDADES</h4>
-                    <form action>
-                        <input type="email" name="email" id="email" required
+                    <form action class="rellenar">
+                        <input type="email" name="email" class="email" required
                             placeholder="email@example.com">
-                        <input type="submit" id="boton" value="Enviar">
+                        <input type="submit" class="boton" value="Enviar">
                     </form>
-                </section>
-                <h5 id="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS RESERVED</h5>
+
+                </div>
+                <h5 class="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS
+                    RESERVED</h5>
             </section>
 
         </footer>

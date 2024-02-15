@@ -1,26 +1,24 @@
 /* mediaquery scss*/
 @media screen and (min-width: 768px) {
     header {
-        .itemsheader {
+
+        .container-fluid{
             flex-direction: row;
             padding: 5%;
+            .logo {
+                
+                text-align: center;
+                height: 10%;
+                justify-content: center;
 
-            .titulosindex {
-                font-size: 50px;
             }
-
-            .substituloindex {
-                font-size: 28px;
-            }
-
-            #barra {
+            .barra {
                 font-size: 20px;
 
                 ul {
                     list-style-type: none;
                 }
             }
-
         }
     }
 
@@ -68,6 +66,9 @@
         }
     }
 
+
+
+
     .main-contacto {
         justify-items: center;
         margin-bottom: 20%;
@@ -101,24 +102,29 @@
             font-size: 17px;
         }
     }
+    footer{
+        .suscripcion{
+            width: 40%;
+        }
+    
+    }
 }
 
 
 @media screen and (min-width: 1024px) {
     header {
-        .itemsheader {
+
+        .container-fluid{
             flex-direction: row-reverse;
             padding: 5%;
+            .logo {
+                
+                text-align: center;
+                height: 10%;
+                justify-content: center;
 
-            .titulo {
-                font-size: 50px;
             }
-
-            .substitulo {
-                font-size: 28px;
-            }
-
-            #barra {
+            .barra {
                 font-size: 20px;
 
                 ul {
@@ -177,6 +183,8 @@
         }
     }
 
+
+
     .main-contacto {
         justify-items: center;
         .cardscontacto {
@@ -209,7 +217,12 @@
         margin-top: 10%;
 
     }
-
-
+    footer{
+        .suscripcion{
+            width: 40%;
+        }
+    
+    }
+    
 
 }

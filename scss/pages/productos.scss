@@ -1,8 +1,8 @@
 /* scss productos */
 
 /* header productos*/
-.fondo-header-productos {
-    background-image: url(./assets/img/header-drake.png);
+.container-productos {
+    background-image: url(../../assets/img/header-drake.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -22,22 +22,22 @@ main {
             border-radius: 20px;
             overflow: hidden;
 
-            #sprm {
+            .sprm {
                 width: 90%;
                 height: 40%;
                 margin-top: 36%;
                 margin-bottom: 2%;
             }
 
-            #nombreproducto {
+            .nombreproducto {
                 font-size: 19px;
             }
 
-            #precioproducto {
+            .precioproducto {
                 font-size: 16px;
             }
 
-            #boton-comprar {
+            .boton-comprar {
                 margin-bottom: 5%;
             }
         }
@@ -50,22 +50,22 @@ main {
             border-radius: 20px;
             overflow: hidden;
 
-            #brb {
+            .brb {
                 width: 65%;
                 height: 40%;
                 margin-top: 40%;
                 margin-bottom: -1%;
             }
 
-            #nombreproducto {
+            .nombreproducto {
                 font-size: 19px;
             }
 
-            #precioproducto {
+            .precioproducto {
                 font-size: 16px;
             }
 
-            #boton-comprar {
+            .boton-comprar {
                 margin-bottom: 5%;
             }
         }
@@ -78,22 +78,22 @@ main {
             border-radius: 20px;
             overflow: hidden;
 
-            #jarritospr {
+            .jarritospr {
                 width: 80%;
                 height: 50%;
                 margin-top: 28%;
                 margin-bottom: -10%;
             }
 
-            #nombreproducto {
+            .nombreproducto {
                 font-size: 19px;
             }
 
-            #precioproducto {
+            .precioproducto {
                 font-size: 16px;
             }
 
-            #boton-comprar {
+            .boton-comprar {
                 margin-bottom: 5%;
             }
         }
@@ -106,22 +106,22 @@ main {
             border-radius: 20px;
             overflow: hidden;
 
-            #beaniepr {
+            .beaniepr {
                 width: 80%;
                 height: 40%;
                 margin-top: 31%;
                 margin-bottom: 2%;
             }
 
-            #nombreproducto {
+            .nombreproducto {
                 font-size: 19px;
             }
 
-            #precioproducto {
+            .precioproducto {
                 font-size: 16px;
             }
 
-            #boton-comprar {
+            .boton-comprar {
                 margin-bottom: 5%;
             }
         }

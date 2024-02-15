@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Link fuentes-->
+        <!-- Link fuente main -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
             rel="stylesheet">
 
+        <!-- Link fuente logo -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -31,230 +32,245 @@
     <body>
         <header>
             <!-- Menu de Navegación -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid container-productos">
 
-            <section class="fondo-header-productos">
-                <section class="itemsheader">
-                    <section id="logo">
-                        <h2 id="titulo">ICE DROPS</h2>
-                        <h2 id="substitulo">step into distinction</h2>
-                    </section>
+                        <div class="logo">
+                            <a class="titulo" href="../index.html">ICE DROPS</a>
+                            <h2 class="substitulo">step into distinction</h2>
+                        </div>
+                        <button class="navbar-toggler menu-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse menu"
+                            id="navbarSupportedContent">
+                            <nav class="barra">
+                                <ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="../index.html">INICIO</a>
+                                    </li>
+        
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="./productos.html">PRODUCTOS</a>
+                                    </li>
+        
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="./preguntas.html">PREGUNTAS</a>
+                                    </li>
+        
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="./nosotros.html">NOSOTROS</a>
+                                    </li>
+        
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="./contacto.html">CONTACTO</a>
+                                    </li>
+                                </ul>
 
-                    <nav id="barra">
-                        <ul>
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="../index.html">INICIO</a>
-                            </li>
+                            </nav>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./productos.html">PRODUCTOS</a>
-                            </li>
+                        </div>
+                    </div>
+                </nav>
+            
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./preguntas.html">PREGUNTAS</a>
-                            </li>
+            
+        </header>
+        <main class="main-productos">
+            <section class="productos">
+                <h1 class="morepr">PRODUCTOS</h1>
 
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./nosotros.html">NOSOTROS</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="./contacto.html">CONTACTO</a>
-                            </li>
-                        </ul>
-
-                    </nav>
-                </section>
-
-            </header>
-            <main class="main-productos">
-                <section class="productos">
-                    <h1 class="morepr">PRODUCTOS</h1>
-
-                    <div class="cards">
-                        <div class="col">
-                            <section class="forum">
-                                <h2 id="descuento">22% off</h2>
-                                <img src="../css/assets/img/forum.jpg"
-                                    alt="adidas forum bad bunny" id="bb">
-                                <h2 id="nombreproducto">Adidas Bad Bunny</h2>
-                                <h3 id="precioproducto">USD $360</h3>
-                                <button type="button" class="btn btn-primary"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal"
-                                    id="boton-comprar">
-                                    COMPRAR
-                                </button>
-                                <div class="modal fade" id="exampleModal"
-                                    tabindex="-1"
-                                    aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button"
-                                                    class="btn-close"
-                                                    data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h2> No contamos stock de este
-                                                    producto, lo sentimos.</h2>
-                                            </div>
-
+                <div class="cards">
+                    <div class="col">
+                        <div class="forum">
+                            <h2 class="descuento">22% off</h2>
+                            <img src="../assets/img/forum.jpg"
+                                alt="adidas forum bad bunny" class="bb">
+                            <h2 class="nombreproducto">Adidas Bad Bunny</h2>
+                            <h3 class="precioproducto">USD $360</h3>
+                            <button type="button" class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                                class="boton-comprar">
+                                COMPRAR
+                            </button>
+                            <div class="modal fade" id="exampleModal"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
                                         </div>
+                                        <div class="modal-body">
+                                            <h2> No contamos stock de este
+                                                producto, lo sentimos.</h2>
+                                        </div>
+
                                     </div>
                                 </div>
+                            </div>
 
-                            </section>
-                        </div>
-
-                        <div class="col">
-                            <section class="balaclava">
-                                <img
-                                    src="../css/assets/img/supreme-balaclava.jpg"
-                                    alt="supreme balaclava" id="sprm">
-                                <h2 id="nombreproducto">Supreme balaclava</h2>
-                                <h3 id="precioproducto">USD $145</h3>
-                                <a class="btn btn-primary" href="./pago.html"
-                                    role="button" id="boton-comprar">COMPRAR</a>
-                            </section>
-                        </div>
-
-                        <div class="col">
-                            <section class="stussy">
-                                <h2 id="descuento">22% off</h2>
-                                <img src="../css/assets/img/remera-stussy.jpg"
-                                    alt="remera stussy x nike" id="stsy">
-                                <h2 id="nombreproducto">Stussy t-shirt</h2>
-                                <h3 id="precioproducto">USD $120</h3>
-                                <a class="btn btn-primary" href="./pago.html"
-                                    role="button" id="boton-comprar">COMPRAR</a>
-                            </section>
-                        </div>
-
-                        <div class="col">
-                            <section class="bearbrick">
-                                <img src="../css/assets/img/bearbrick-eve.webp"
-                                    alt="bearbrick eve" id="brb">
-                                <h2 id="nombreproducto">Bearbrick EVE</h2>
-                                <h3 id="precioproducto">USD $800</h3>
-                                <a class="btn btn-primary" href="./pago.html"
-                                    role="button" id="boton-comprar">COMPRAR</a>
-                            </section>
                         </div>
                     </div>
 
-                    <div class="cards">
-                        <div class="col">
-                            <section class="jarritos">
-                                <img src="../css/assets/img/nike jarritos.webp"
-                                    alt="nike sb jarritos" id="jarritospr">
-                                <h2 id="nombreproducto">Nike SB Jarritos</h2>
-                                <h3 id="precioproducto">USD $302</h3>
-                                <a class="btn btn-primary" href="./pago.html"
-                                    role="button" id="boton-comprar">COMPRAR</a>
-                            </section>
-                        </div>
-
-                        <div class="col">
-                            <section class="travis">
-                                <h2 id="descuento">22% off</h2>
-                                <img src="../css/assets/img/am1-travis.webp"
-                                    alt="nike air max 1 travis scott"
-                                    id="am1index">
-                                <h2 id="nombreproducto">Nike Air Max 1
-                                    Travis</h2>
-                                <h3 id="precioproducto">USD $247</h3>
-                                <a class="btn btn-primary" href="./pago.html"
-                                    role="button" id="boton-comprar">COMPRAR</a>
-                            </section>
-                        </div>
-
-                        <div class="col">
-                            <section class="beanie">
-                                <img
-                                    src="../css/assets/img/Supreme-God-Beanie-Black.jpg"
-                                    alt="supreme god beanie negro"
-                                    id="beaniepr">
-                                <h2 id="nombreproducto">Supreme God Beanie</h2>
-                                <h3 id="precioproducto">USD $74</h3>
-                                <button type="button" class="btn btn-primary"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal"
-                                    id="boton-comprar">
-                                    COMPRAR
-                                </button>
-                                <div class="modal fade" id="exampleModal"
-                                    tabindex="-1"
-                                    aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button"
-                                                    class="btn-close"
-                                                    data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h2> No contamos stock de este
-                                                    producto, lo sentimos.</h2>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-
-                        <div class="col">
-                            <section class="zip">
-                                <h2 id="descuento">30% off</h2>
-                                <img src="../css/assets/img/supreme-zip.webp"
-                                    alt="supreme zip negra" id="zippr">
-                                <h2 id="nombreproducto">Supreme Zip</h2>
-
-                                <h3 id="precioproducto">USD $245</h3>
-                                <a class="btn btn-primary" href="./pago.html"
-                                    role="button" id="boton-comprar">COMPRAR</a>
-                            </section>
+                    <div class="col">
+                        <div class="balaclava">
+                            <img
+                                src="../assets/img/supreme-balaclava.jpg"
+                                alt="supreme balaclava" class="sprm">
+                            <h2 class="nombreproducto">Supreme balaclava</h2>
+                            <h3 class="precioproducto">USD $145</h3>
+                            <a class="btn btn-primary" href="./pago.html"
+                                role="button" class="boton-comprar">COMPRAR</a>
                         </div>
                     </div>
 
-                </section>
+                    <div class="col">
+                        <div class="stussy">
+                            <h2 class="descuento">22% off</h2>
+                            <img src="../assets/img/remera-stussy.jpg"
+                                alt="remera stussy x nike" class="stsy">
+                            <h2 class="nombreproducto">Stussy t-shirt</h2>
+                            <h3 class="precioproducto">USD $120</h3>
+                            <a class="btn btn-primary" href="./pago.html"
+                                role="button" class="boton-comprar">COMPRAR</a>
+                        </div>
+                    </div>
 
-                <h2 class="morepr">MAS PRODUCTOS PROXIMAMENTE...</h2>
-            </main>
+                    <div class="col">
+                        <div class="bearbrick">
+                            <img src="../assets/img/bearbrick-eve.webp"
+                                alt="bearbrick eve" class="brb">
+                            <h2 class="nombreproducto">Bearbrick EVE</h2>
+                            <h3 class="precioproducto">USD $800</h3>
+                            <a class="btn btn-primary" href="./pago.html"
+                                role="button" class="boton-comprar">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
 
-            <footer>
-                <section class="fondo-footer-productos">
-                    <!-- Contenido Footer -->
-                    <section class="titulofooter">
-                        <h2 id="titulo">ICE DROPS</h2>
-                        <h2 id="substitulo">Step into Distinction</h2>
-                    </section>
+                <div class="cards">
+                    <div class="col">
+                        <div class="jarritos">
+                            <img src="../assets/img/nike jarritos.webp"
+                                alt="nike sb jarritos" class="jarritospr">
+                            <h2 class="nombreproducto">Nike SB Jarritos</h2>
+                            <h3 class="precioproducto">USD $302</h3>
+                            <a class="btn btn-primary" href="./pago.html"
+                                role="button" class="boton-comprar">COMPRAR</a>
+                        </div>
+                    </div>
 
-                    <section id="suscripcion">
-                        <h4 id="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
-                            NOVEDADES</h4>
-                        <form action id="rellenar">
-                            <input type="email" name="email" id="email" required
-                                placeholder="email@example.com">
-                            <input type="submit" id="boton" value="Enviar">
-                        </form>
-                    </section>
-                    <h5 id="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS
-                        RESERVED</h5>
-                </section>
-                <script
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                    crossorigin="anonymous"></script>
-            </footer>
-        </body>
-    </html>
+                    <div class="col">
+                        <div class="travis">
+                            <h2 class="descuento">22% off</h2>
+                            <img src="../assets/img/am1-travis.webp"
+                                alt="nike air max 1 travis scott"
+                                class="am1index">
+                            <h2 class="nombreproducto">Nike Air Max 1
+                                Travis</h2>
+                            <h3 class="precioproducto">USD $247</h3>
+                            <a class="btn btn-primary" href="./pago.html"
+                                role="button" class="boton-comprar">COMPRAR</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col">
+                        <div class="beanie">
+                            <img
+                                src="../assets/img/Supreme-God-Beanie-Black.jpg"
+                                alt="supreme god beanie negro"
+                                class="beaniepr">
+                            <h2 class="nombreproducto">Supreme God Beanie</h2>
+                            <h3 class="precioproducto">USD $74</h3>
+                            <button type="button" class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                                class="boton-comprar">
+                                COMPRAR
+                            </button>
+                            <div class="modal fade" id="exampleModal"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h2> No contamos stock de este
+                                                producto, lo sentimos.</h2>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="zip">
+                            <h2 class="descuento">30% off</h2>
+                            <img src="../assets/img/supreme-zip.webp"
+                                alt="supreme zip negra" class="zippr">
+                            <h2 class="nombreproducto">Supreme Zip</h2>
+                            <h3 class="precioproducto">USD $245</h3>
+                            <a class="btn btn-primary" href="./pago.html"
+                                role="button" class="boton-comprar">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <h2 class="morepr">MAS PRODUCTOS PROXIMAMENTE...</h2>
+        </main>
+
+        <footer>
+            <section class="fondo-footer-productos">
+                <!-- Contenido Footer -->
+                <div class="titulofooter">
+                    <h2 class="titulo">ICE DROPS</h2>
+                    <h2 class="substitulo">Step into Distinction</h2>
+                </div>
+
+                <div class="suscripcion">
+                    <h4 class="cartelsus">SUSCRIBITE PARA ENTERARTE DE LAS
+                        NOVEDADES</h4>
+                    <form action class="rellenar">
+                        <input type="email" name="email" class="email" required
+                            placeholder="email@example.com">
+                        <input type="submit" class="boton" value="Enviar">
+                    </form>
+
+                </div>
+                <h5 class="copy">ICE DROPS ® COPYRIGHT © ALL RIGHTS
+                    RESERVED</h5>
+            </section>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+        </footer>
+    </body>
+</html>
