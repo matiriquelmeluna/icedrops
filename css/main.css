@@ -178,7 +178,7 @@ footer .copy {
 /* SCSS INDEX*/
 /* header index */
 .container-index {
-  background-image: url(../../assets/img/header-kanye.png);
+  background-image: url(/assets/img/header-kanye.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
