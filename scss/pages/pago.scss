@@ -2,7 +2,7 @@
 
 /* header pago*/
 .container-pago {
-    background-image: url(../../assets/img/header-pago.png);
+    background-image: url(../assets/img/header-pago.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -43,6 +43,14 @@
         }
         #form{
             font-size: 20px;
+        }
+        .enviar {
+            margin-bottom: 5%;
+            a{
+                background-color:#0f0f0f;
+                border-color: #0f0f0f;
+                -webkit-text-fill-color: rgb(218, 218, 218);
+            }
         }
     }
 }

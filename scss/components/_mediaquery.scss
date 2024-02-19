@@ -105,6 +105,14 @@
     footer{
         .suscripcion{
             width: 40%;
+            .rellenar{
+                .email{
+                    width: 85%;
+                }
+                .boton{
+                    width: 15%;
+                }
+            }
         }
     
     }
@@ -219,7 +227,15 @@
     }
     footer{
         .suscripcion{
-            width: 40%;
+            width: 35%;
+            .rellenar{
+                .email{
+                    width: 85%;
+                }
+                .boton{
+                    width: 15%;
+                }
+            }
         }
     
     }

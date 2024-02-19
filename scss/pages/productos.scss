@@ -2,7 +2,7 @@
 
 /* header productos*/
 .container-productos {
-    background-image: url(../../assets/img/header-drake.png);
+    background-image: url(../assets/img/header-drake.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -13,6 +13,49 @@
 main {
     .col {
 
+        .forum {
+            .comprar-productos {
+                margin-bottom: 5%;
+                button{
+                    background-color:#2e1c08;
+                    border-color: #2e1c08;
+                    -webkit-text-fill-color: rgb(218, 218, 218);
+                }
+            }
+        }
+
+        .travis {
+            .comprar-productos {
+                margin-bottom: 5%;
+                a{
+                    background-color:#2e1c08;
+                    border-color: #2e1c08;
+                    -webkit-text-fill-color: rgb(218, 218, 218);
+                }
+            }
+        }
+
+        .stussy {
+            .comprar-productos {
+                margin-bottom: 5%;
+                a{
+                    background-color:#2e1c08;
+                    border-color: #2e1c08;
+                    -webkit-text-fill-color: rgb(218, 218, 218);
+                }
+            }
+        }
+
+        .zip {
+            .comprar-productos {
+                margin-bottom: 5%;
+                a{
+                    background-color:#2e1c08;
+                    border-color: #2e1c08;
+                    -webkit-text-fill-color: rgb(218, 218, 218);
+                }
+            }
+        }
 
         .balaclava {
             width: 100%;
@@ -25,7 +68,7 @@ main {
             .sprm {
                 width: 90%;
                 height: 40%;
-                margin-top: 36%;
+                margin-top: 32%;
                 margin-bottom: 2%;
             }
 
@@ -37,8 +80,13 @@ main {
                 font-size: 16px;
             }
 
-            .boton-comprar {
+            .comprar-productos {
                 margin-bottom: 5%;
+                a{
+                    background-color:#2e1c08;
+                    border-color: #2e1c08;
+                    -webkit-text-fill-color: rgb(218, 218, 218);
+                }
             }
         }
 
@@ -53,7 +101,7 @@ main {
             .brb {
                 width: 65%;
                 height: 40%;
-                margin-top: 40%;
+                margin-top: 35%;
                 margin-bottom: -1%;
             }
 
@@ -65,8 +113,13 @@ main {
                 font-size: 16px;
             }
 
-            .boton-comprar {
+            .comprar-productos {
                 margin-bottom: 5%;
+                a{
+                    background-color:#2e1c08;
+                    border-color: #2e1c08;
+                    -webkit-text-fill-color: rgb(218, 218, 218);
+                }
             }
         }
 
@@ -81,7 +134,7 @@ main {
             .jarritospr {
                 width: 80%;
                 height: 50%;
-                margin-top: 28%;
+                margin-top: 33%;
                 margin-bottom: -10%;
             }
 
@@ -93,8 +146,13 @@ main {
                 font-size: 16px;
             }
 
-            .boton-comprar {
+            .comprar-productos {
                 margin-bottom: 5%;
+                a{
+                    background-color:#2e1c08;
+                    border-color: #2e1c08;
+                    -webkit-text-fill-color: rgb(218, 218, 218);
+                }
             }
         }
 
@@ -109,7 +167,7 @@ main {
             .beaniepr {
                 width: 80%;
                 height: 40%;
-                margin-top: 31%;
+                margin-top: 32%;
                 margin-bottom: 2%;
             }
 
@@ -121,8 +179,13 @@ main {
                 font-size: 16px;
             }
 
-            .boton-comprar {
+            .comprar-productos {
                 margin-bottom: 5%;
+                button{
+                    background-color:#2e1c08;
+                    border-color: #2e1c08;
+                    -webkit-text-fill-color: rgb(218, 218, 218);
+                }
             }
         }
 

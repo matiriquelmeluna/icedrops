@@ -2,8 +2,8 @@
 
 /* header index */
 
-.container-index{
-    background-image: url(/assets/img/header-kanye.png);
+.container-index {
+    background-image: url(../assets/img/header-kanye.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -13,7 +13,8 @@
 /* main index */
 
 $color-borde: 2px solid rgb(204, 204, 204);
-main{
+
+main {
     .productos {
         display: flex;
         flex-direction: column;
@@ -64,10 +65,16 @@ main{
                         font-size: 16px;
                     }
 
-                    .boton-comprar {
+                    .comprar {
                         margin-bottom: 5%;
-                        color: grey;
+                        button{
+                            background-color: #460075;
+                            border-color: #460075;
+                            -webkit-text-fill-color: rgb(218, 218, 218);
+                        }
                     }
+
+                    
                 }
 
                 .travis {
@@ -90,7 +97,7 @@ main{
                     .am1index {
                         width: 70%;
                         height: 27%;
-                        margin-top: 27%;
+                        margin-top: 25%;
                         margin-bottom: 2%;
                     }
 
@@ -102,8 +109,13 @@ main{
                         font-size: 16px;
                     }
 
-                    .boton-comprar {
+                    .comprar {
                         margin-bottom: 5%;
+                        a{
+                            background-color: #460075;
+                            border-color: #460075;
+                            -webkit-text-fill-color: rgb(218, 218, 218);
+                        }
                     }
                 }
 
@@ -127,7 +139,7 @@ main{
                     .stsy {
                         width: 60%;
                         height: 40%;
-                        margin-top: 15%;
+                        margin-top: 10%;
                     }
 
                     .nombreproducto {
@@ -138,8 +150,13 @@ main{
                         font-size: 16px;
                     }
 
-                    .boton-comprar {
+                    .comprar {
                         margin-bottom: 5%;
+                        a{
+                            background-color: #460075;
+                            border-color: #460075;
+                            -webkit-text-fill-color: rgb(218, 218, 218);
+                        }
                     }
                 }
 
@@ -163,7 +180,7 @@ main{
                     .zippr {
                         width: 55%;
                         height: 45%;
-                        margin-top: 7%;
+                        margin-top: 8%;
                         margin-bottom: -4%;
                     }
 
@@ -175,24 +192,32 @@ main{
                         font-size: 16px;
                     }
 
-                    .boton-comprar {
+                    .comprar {
                         margin-bottom: 5%;
+                        a{
+                            background-color: #460075;
+                            border-color: #460075;
+                            -webkit-text-fill-color: rgb(218, 218, 218);
+                        }
                     }
                 }
 
             }
         }
     }
+
     .productosmenu {
         text-align: center;
         list-style-type: none;
         font-size: 24px;
         font-family: 'Bebas Neue', sans-serif;
         margin-top: 5%;
-        .nav-link{
+
+        .nav-link {
             color: #222222;
         }
-        .nav-link:hover{
+
+        .nav-link:hover {
             color: red;
             text-decoration: underline;
         }
