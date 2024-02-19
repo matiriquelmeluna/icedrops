@@ -46,7 +46,7 @@ header .navbar-expand-lg .container-fluid .menu-button:focus {
   box-shadow: none;
 }
 header .navbar-expand-lg .container-fluid .navbar-toggler-icon {
-  background-image: url(../../assets/img/icono-menu-hamburguesa.png);
+  background-image: url(../assets/img/icono-menu-hamburguesa.png);
 }
 header .navbar-expand-lg .container-fluid .navbar-collapse {
   flex-grow: 0;
