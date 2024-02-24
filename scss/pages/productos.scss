@@ -10,6 +10,16 @@
 }
 
 /* main productos*/
+
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin ancho($ancho){
+    width: $ancho;
+}
+
 main {
     .col {
 
@@ -58,16 +68,14 @@ main {
         }
 
         .balaclava {
-            width: 100%;
-            height: 100%;
+            @include sizes(100%, 100%);
             text-align: center;
             border: $color-borde;
             border-radius: 20px;
             overflow: hidden;
 
             .sprm {
-                width: 90%;
-                height: 40%;
+                @include sizes(90%, 40%);
                 margin-top: 32%;
                 margin-bottom: 2%;
             }
@@ -91,16 +99,14 @@ main {
         }
 
         .bearbrick {
-            width: 100%;
-            height: 100%;
+            @include sizes(100%, 100%);
             text-align: center;
             border: $color-borde;
             border-radius: 20px;
             overflow: hidden;
 
             .brb {
-                width: 65%;
-                height: 40%;
+                @include sizes(65%, 40%);
                 margin-top: 35%;
                 margin-bottom: -1%;
             }
@@ -124,16 +130,14 @@ main {
         }
 
         .jarritos {
-            width: 100%;
-            height: 100%;
+            @include sizes(100%, 100%);
             text-align: center;
             border: $color-borde;
             border-radius: 20px;
             overflow: hidden;
 
             .jarritospr {
-                width: 80%;
-                height: 50%;
+                @include sizes(80%, 50%);
                 margin-top: 33%;
                 margin-bottom: -10%;
             }
@@ -157,16 +161,14 @@ main {
         }
 
         .beanie {
-            width: 100%;
-            height: 100%;
+            @include sizes(100%, 100%);
             text-align: center;
             border: $color-borde;
             border-radius: 20px;
             overflow: hidden;
 
             .beaniepr {
-                width: 80%;
-                height: 40%;
+                @include sizes(80%, 40%);
                 margin-top: 32%;
                 margin-bottom: 2%;
             }
@@ -193,7 +195,7 @@ main {
     }
     .morepr {
         text-align: center;
-        width: 100%;
+        @include ancho(100%);
     }
 }
 
@@ -205,8 +207,7 @@ main {
     font-family: 'Train One', system-ui;
     font-style: italic;
     background-color: #2e1c08;
-    width: 100%;
-    height: 100%;
+    @include sizes(100%, 100%);
     display: flex;
     flex-direction: column;
 }

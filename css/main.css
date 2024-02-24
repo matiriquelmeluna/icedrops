@@ -7,6 +7,7 @@
 }
 
 /* scss header */
+/* variable */
 header {
   width: 100%;
   height: 25%;
@@ -67,51 +68,6 @@ header .navbar-expand-lg .container-fluid .navbar-collapse .barra ul .nav-link {
   color: #949494;
 }
 header .navbar-expand-lg .container-fluid .navbar-collapse .barra ul .nav-link:hover {
-  color: red;
-  text-decoration: underline;
-}
-header .itemsheader {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-header .itemsheader .logo {
-  margin-top: 5%;
-  text-align: center;
-  height: 10%;
-  justify-content: center;
-}
-header .itemsheader .logo .titulo {
-  font-size: 35px;
-  color: #949494;
-  height: 80%;
-  font-family: "Train One", system-ui;
-  font-style: italic;
-}
-header .itemsheader .logo .substitulo {
-  font-size: 18px;
-  color: #949494;
-  font-family: "Train One", system-ui;
-  font-style: italic;
-  font-weight: 580;
-}
-header .itemsheader .barra {
-  font-size: 22px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  font-family: "Bebas Neue", sans-serif;
-}
-header .itemsheader .barra ul {
-  list-style-type: none;
-  padding-left: 0%;
-  padding: 0%;
-}
-header .itemsheader .barra ul .nav-link {
-  color: #949494;
-}
-header .itemsheader .barra ul .nav-link:hover {
   color: red;
   text-decoration: underline;
 }
@@ -215,8 +171,8 @@ main .productos .cards .col .forum {
 }
 main .productos .cards .col .forum .descuento {
   font-weight: bold;
-  height: 7%;
   width: 30%;
+  height: 7%;
   position: relative;
   margin: 10%;
   font-size: 21px;
@@ -250,8 +206,8 @@ main .productos .cards .col .travis {
 }
 main .productos .cards .col .travis .descuento {
   font-weight: bold;
-  height: 3%;
   width: 30%;
+  height: 3%;
   position: relative;
   margin: 10%;
   font-size: 21px;
@@ -286,8 +242,8 @@ main .productos .cards .col .stussy {
 }
 main .productos .cards .col .stussy .descuento {
   font-weight: bold;
-  height: 3%;
   width: 30%;
+  height: 3%;
   position: relative;
   margin: 10%;
   font-size: 21px;
@@ -321,8 +277,8 @@ main .productos .cards .col .zip {
 }
 main .productos .cards .col .zip .descuento {
   font-weight: bold;
-  height: 3%;
   width: 30%;
+  height: 3%;
   position: relative;
   margin: 10%;
   font-size: 21px;
@@ -658,31 +614,70 @@ main .morepr {
 }
 
 /* main contacto*/
+/*@include sizes(100%, 100%);*/
+/*@include ancho(100%);*/
 .main-contacto {
   text-align: center;
   width: 100%;
 }
 .main-contacto .contactoscon {
-  margin-top: 5%;
+  margin-top: 10%;
   font-size: 25px;
 }
 .main-contacto .cardscontacto {
   justify-items: center;
   align-items: center;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
 }
 .main-contacto .cardscontacto .card {
   width: 50%;
   margin-top: 2%;
-  margin-bottom: 0%;
+  margin-bottom: 3%;
 }
-.main-contacto .cardscontacto .card .card-title {
-  font-size: 22px;
+.main-contacto .cardscontacto #card-arg .bandera {
+  width: 100%;
 }
-.main-contacto .cardscontacto #carouselExampleAutoplaying {
-  width: 50%;
-  margin-top: 2%;
+.main-contacto .cardscontacto #card-arg .card-title-arg {
+  font-size: 20px;
+}
+.main-contacto .cardscontacto #card-arg .card-text-arg {
+  font-weight: 350;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.main-contacto .cardscontacto #card-br .bandera {
+  width: 100%;
+}
+.main-contacto .cardscontacto #card-br .card-title-br {
+  font-size: 20px;
+}
+.main-contacto .cardscontacto #card-br .card-text-br {
+  font-weight: 350;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.main-contacto .cardscontacto #card-uy .bandera {
+  width: 100%;
+}
+.main-contacto .cardscontacto #card-uy .card-title-uy {
+  font-size: 20px;
+}
+.main-contacto .cardscontacto #card-uy .card-text-uy {
+  font-weight: 350;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.main-contacto .cardscontacto #card-cl .bandera {
+  width: 100%;
+}
+.main-contacto .cardscontacto #card-cl .card-title-cl {
+  font-size: 20px;
+}
+.main-contacto .cardscontacto #card-cl .card-text-cl {
+  font-weight: 350;
+  font-size: 15px;
+  margin-bottom: 0px;
 }
 
 /* footer contacto*/
@@ -726,7 +721,7 @@ main .morepr {
 .main-pago .formulario .cartel2 {
   font-size: 20px;
 }
-.main-pago .formulario .datospago {
+.main-pago .formulario .datospago, .main-pago .formulario .felx {
   width: 80%;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -734,7 +729,6 @@ main .morepr {
 .main-pago .formulario .felx {
   display: flex;
   flex-direction: row;
-  width: 80%;
   margin-left: 10%;
 }
 .main-pago .formulario .felx .deptopago {
@@ -857,20 +851,74 @@ main .morepr {
     justify-items: center;
     margin-bottom: 20%;
   }
-  .main-contacto .cardscontacto {
-    justify-items: center;
+  .main-contacto .card {
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  .main-contacto #card-arg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    display: flex;
-    flex-direction: column;
   }
-  .main-contacto .cardscontacto .card {
-    width: 50%;
-    margin-top: 2%;
-    margin-bottom: 0%;
+  .main-contacto #card-arg .bandera {
+    width: 100%;
   }
-  .main-contacto .cardscontacto #carouselExampleAutoplaying {
-    width: 50%;
-    margin-top: 2%;
+  .main-contacto #card-arg .card-title-arg {
+    font-size: 25px;
+    margin-bottom: -1px;
+  }
+  .main-contacto #card-arg .card-text-arg {
+    font-size: 20px;
+    margin-bottom: -1px;
+  }
+  .main-contacto #card-br {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .main-contacto #card-br .bandera {
+    width: 100%;
+  }
+  .main-contacto #card-br .card-title-br {
+    font-size: 25px;
+    margin-bottom: -1px;
+  }
+  .main-contacto #card-br .card-text-br {
+    font-size: 20px;
+    margin-bottom: -1px;
+  }
+  .main-contacto #card-uy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .main-contacto #card-uy .bandera {
+    width: 100%;
+  }
+  .main-contacto #card-uy .card-title-uy {
+    font-size: 25px;
+    margin-bottom: -1px;
+  }
+  .main-contacto #card-uy .card-text-uy {
+    font-size: 20px;
+    margin-bottom: -1px;
+  }
+  .main-contacto #card-cl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .main-contacto #card-cl .bandera {
+    width: 100%;
+  }
+  .main-contacto #card-cl .card-title-cl {
+    font-size: 25px;
+    margin-bottom: -1px;
+  }
+  .main-contacto #card-cl .card-text-cl {
+    font-size: 20px;
+    margin-bottom: -1px;
   }
   .main-pago .cartel1pago {
     font-size: 20px;
@@ -941,20 +989,64 @@ main .morepr {
   .main-contacto {
     justify-items: center;
   }
-  .main-contacto .cardscontacto {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
+  .main-contacto .card {
+    width: 30%;
   }
-  .main-contacto .cardscontacto .card {
-    width: 50%;
-    margin-top: 2%;
-    margin-bottom: 0%;
+  .main-contacto #card-arg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
-  .main-contacto .cardscontacto #carouselExampleAutoplaying {
-    width: 50%;
-    margin-top: 2%;
+  .main-contacto #card-arg .bandera {
+    width: 100%;
+  }
+  .main-contacto #card-arg .card-title-arg {
+    font-size: 40px;
+  }
+  .main-contacto #card-arg .card-text-arg {
+    font: 20px;
+    margin-bottom: 0px;
+  }
+  .main-contacto #card-br {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-contacto #card-br .bandera {
+    width: 100%;
+  }
+  .main-contacto #card-br .card-title-br {
+    font-size: 25px;
+  }
+  .main-contacto #card-br .card-text-br {
+    font: 20px;
+    margin-bottom: 0px;
+  }
+  .main-contacto #card-uy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-contacto #card-uy .bandera {
+    width: 100%;
+  }
+  .main-contacto #card-uy .card-title-uy {
+    font-size: 25px;
+  }
+  .main-contacto #card-uy .card-text-uy {
+    font: 20px;
+    margin-bottom: 0px;
+  }
+  .main-contacto #card-cl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-contacto #card-cl .bandera {
+    width: 100%;
+  }
+  .main-contacto #card-cl .card-title-cl {
+    font-size: 25px;
+  }
+  .main-contacto #card-cl .card-text-cl {
+    font: 20px;
+    margin-bottom: 0px;
   }
   .main-pagado {
     margin-top: 10%;

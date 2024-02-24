@@ -1,6 +1,6 @@
 /* scss header */
 
-
+/* variable */
 $gris: #949494;
 
 header {
@@ -74,61 +74,7 @@ header {
         }
     }
     
-    .itemsheader {
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-
-        .logo {
-            margin-top: 5%;
-            text-align: center;
-            height: 10%;
-            justify-content: center;
-
-            .titulo {
-                font-size: 35px;
-                color: $gris;
-                height: 80%;
-                
-                font-family: 'Train One', system-ui;
-                
-                font-style: italic;
-            }
-
-            .substitulo {
-                font-size: 18px;
-                color: $gris;
-                font-family: 'Train One', system-ui;
-                font-style: italic;
-                font-weight: 580;
-                
-            }
-        }
-
-        .barra {
-            font-size: 22px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            font-family: 'Bebas Neue', sans-serif;
-
-            ul {
-                list-style-type: none;
-                padding-left: 0%;
-                padding: 0%;
-                .nav-link{
-                    color: $gris;
-                }
-                .nav-link:hover{
-                    color: red;
-                    text-decoration: underline;
-                }
-            }
-        }
-
-    }
+    
 
 
 
