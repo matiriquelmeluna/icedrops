@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="shortcut icon" type="icedrops-icon"
+            href="../assets/img/logo-pestaña.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Link fuente main -->
@@ -18,10 +20,18 @@
             href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
             rel="stylesheet">
 
+        <!-- Link AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <!-- Link css -->
         <link rel="stylesheet" href="../css/main.css">
+
+        <!-- SEO -->
+        <meta name="keywords"
+            content="zapatillas, sneakers, nike, stussy, bearbricks, supreme, remeras, shirts, accesories">
+
         <!-- Titulo -->
-        <title>Ice Drops</title>
+        <title>Contacto - Ice Drops</title>
         <!-- Link Bootstrap -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -88,7 +98,7 @@
             <!-- Main -->
             <h1 class="contactoscon">CÓMO CONTACTARNOS</h1>
             <div class="cardscontacto">
-                <div class="card" id="card-arg">
+                <div class="card" id="card-arg" data-aos="fade-down-right" data-aos-duration="1000">
                     <div class="card-body" id="body-arg">
                         <h2 class="card-title-arg">ARGENTINA</h2>
                         <p class="card-text-arg">INSTAGRAM: icedropsar</p>
@@ -96,9 +106,10 @@
                         <p class="card-text-arg">MERCADOLIBRE</p>
                         <p class="card-text-arg">MAIL: icedropsar@gmail.com</p>
                     </div>
-                    <img src="../assets/img/bandera-argentina.png" alt="bandera Argentina" class="bandera">
+                    <img src="../assets/img/bandera-argentina.png"
+                        alt="bandera Argentina" class="bandera">
                 </div>
-                <div class="card" id="card-br">
+                <div class="card" id="card-br" data-aos="fade-down-left" data-aos-duration="1000">
                     <div class="card-body" id="body-br">
                         <h2 class="card-title-br">BRASIL</h2>
                         <p class="card-text-br">INSTAGRAM: icedropsbr</p>
@@ -106,9 +117,10 @@
                         <p class="card-text-br">MERCADOLIBRE</p>
                         <p class="card-text-br">MAIL: icedropsbr@gmail.com</p>
                     </div>
-                    <img src="../assets/img/bandera-brasil.png" alt="bandera Brasil" class="bandera">
+                    <img src="../assets/img/bandera-brasil.png"
+                        alt="bandera Brasil" class="bandera">
                 </div>
-                <div class="card" id="card-uy">
+                <div class="card" id="card-uy" data-aos="fade-up-right" data-aos-duration="1000">
                     <div class="card-body" id="body-uy">
                         <h2 class="card-title-uy">URUGUAY</h2>
                         <p class="card-text-uy">INSTAGRAM: icedropsuy</p>
@@ -116,10 +128,11 @@
                         <p class="card-text-uy">MERCADOLIBRE</p>
                         <p class="card-text-uy">MAIL: icedropsuy@gmail.com</p>
                     </div>
-                    <img src="../assets/img/bandera-uruguay.jpg" alt="bandera Uruguay" class="bandera">
+                    <img src="../assets/img/bandera-uruguay.jpg"
+                        alt="bandera Uruguay" class="bandera">
 
                 </div>
-                <div class="card" id="card-cl">
+                <div class="card" id="card-cl" data-aos="fade-up-left" data-aos-duration="1000">
                     <div class="card-body" id="body-cl">
                         <h2 class="card-title-cl">CHILE</h2>
                         <p class="card-text-cl">INSTAGRAM: icedropscl</p>
@@ -127,10 +140,27 @@
                         <p class="card-text-cl">MERCADOLIBRE</p>
                         <p class="card-text-cl">MAIL: icedropscl@gmail.com</p>
                     </div>
-                    <img src="../assets/img/bandera-chile.png" alt="bandera Chile" class="bandera">
+                    <img src="../assets/img/bandera-chile.png"
+                        alt="bandera Chile" class="bandera">
 
                 </div>
-                
+
+            </div>
+            <div id="formulario-contacto" data-aos="fade-up" data-aos-duration="1000">
+                <form>
+                    <h2>Si tenes una duda escribila acá:</h2>
+                    <input type="text" placeholder="NOMBRE"
+                        id="nombre-contacto">
+                    <br>
+                    <input type="email" name="email" id="email-contacto"
+                        placeholder="EMAIL">
+                    <br>
+                    <textarea name placeholder="ESCRIBIR ACÁ" cols="41" rows="2"
+                        id="cuadro-contacto"></textarea>
+                    <br>
+                    <button role="button" type="submit"
+                        class="btn" id="enviar-contacto">ENVIAR</button>
+                </form>
 
             </div>
 
@@ -162,5 +192,9 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

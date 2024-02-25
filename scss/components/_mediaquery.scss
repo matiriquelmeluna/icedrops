@@ -75,8 +75,11 @@
     .main-contacto {
         justify-items: center;
         margin-bottom: 20%;
-        .card {
-            @include ancho(50%);
+        .cardscontacto{
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            .card {
+            @include ancho(80%);
             margin-top: 2%;
             margin-bottom: 3%;
             
@@ -91,11 +94,11 @@
                 width:100%;
             }
             .card-title-arg{
-                font-size: 25px;
+                font-size: 14px;
                 margin-bottom: -1px;
             }
             .card-text-arg{
-                font-size:  20px;
+                font-size:  9px;
                 margin-bottom: -1px;
             }
         }
@@ -107,11 +110,11 @@
                 width:100%;
             }
             .card-title-br{
-                font-size: 25px;
+                font-size: 14px;
                 margin-bottom: -1px;
             }
             .card-text-br{
-                font-size:  20px;
+                font-size:  9px;
                 margin-bottom: -1px;
             }
         }
@@ -123,11 +126,11 @@
                 width:100%;
             }
             .card-title-uy{
-                font-size: 25px;
+                font-size: 14px;
                 margin-bottom: -1px;
             }
             .card-text-uy{
-                font-size:  20px;
+                font-size:  9px;
                 margin-bottom: -1px;
             }
         }
@@ -139,14 +142,16 @@
                 width:100%;
             }
             .card-title-cl{
-                font-size: 25px;
+                font-size: 14px;
                 margin-bottom: -1px;
             }
             .card-text-cl{
-                font-size:  20px;
+                font-size:  9px;
                 margin-bottom: -1px;
             }
         }
+        }
+        
     }
 
     .main-pago {
@@ -251,65 +256,70 @@
 
     .main-contacto {
         justify-items: center;
-        .card{
-            @include ancho(30%);
-        }
-        #card-arg{
-            display: grid;
+        .cardscontacto{
+            grid-template-rows: repeat(2, 1fr);
             grid-template-columns: repeat(2, 1fr);
-            .bandera{
-                width:100%;
+            .card{
+                @include ancho(75%);
             }
-            .card-title-arg{
-                font-size:40px;
+            #card-arg{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .bandera{
+                    width:100%;
+                }
+                .card-title-arg{
+                    font-size: 20px;
+                }
+                .card-text-arg{
+                    font-size:  11px;
+                    margin-bottom: 0px;
+                }
             }
-            .card-text-arg{
-                font: 20px;
-                margin-bottom: 0px;
+            #card-br{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .bandera{
+                    width:100%;
+                }
+                .card-title-br{
+                    font-size: 20px;
+                }
+                .card-text-br{
+                    font-size:  11px;
+                    margin-bottom: 0px;
+                }
+            }
+            #card-uy{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .bandera{
+                    width:100%;
+                }
+                .card-title-uy{
+                    font-size: 20px;
+                }
+                .card-text-uy{
+                    font-size:  11px;
+                    margin-bottom: 0px;
+                }
+            }
+            #card-cl{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .bandera{
+                    width:100%;
+                }
+                .card-title-cl{
+                    font-size: 20px;
+                }
+                .card-text-cl{
+                    font-size:  11px;
+                    margin-bottom: 0px;
+                }
             }
         }
-        #card-br{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            .bandera{
-                width:100%;
-            }
-            .card-title-br{
-                font-size: 25px;
-            }
-            .card-text-br{
-                font: 20px;
-                margin-bottom: 0px;
-            }
-        }
-        #card-uy{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            .bandera{
-                width:100%;
-            }
-            .card-title-uy{
-                font-size: 25px;
-            }
-            .card-text-uy{
-                font: 20px;
-                margin-bottom: 0px;
-            }
-        }
-        #card-cl{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            .bandera{
-                width:100%;
-            }
-            .card-title-cl{
-                font-size: 25px;
-            }
-            .card-text-cl{
-                font: 20px;
-                margin-bottom: 0px;
-            }
-        }
+        
 
     }
 

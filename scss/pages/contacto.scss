@@ -24,6 +24,8 @@
 
 .main-contacto {
     text-align: center;
+    
+
     @include ancho(100%);
     .contactoscon{
         margin-top: 10%;
@@ -43,9 +45,10 @@
             
         }
         #card-arg{
-            
+            border: 1px solid rgb(53, 133, 179);
             .bandera{
                 width:100%;
+                border: 1px solid rgb(53, 133, 179);
             }
             .card-title-arg{
                 font-size: 20px;
@@ -58,9 +61,10 @@
             
         }
         #card-br{
-            
+            border: 1px solid rgb(44, 94, 53);
             .bandera{
                 width:100%;
+                border: 1px solid rgb(44, 94, 53);
             }
             .card-title-br{
                 font-size: 20px;
@@ -72,9 +76,10 @@
             }
         }
         #card-uy{
-            
+            border: 1px solid rgb(27, 62, 214);
             .bandera{
                 width:100%;
+                border: 1px solid rgb(27, 62, 214);
             }
             .card-title-uy{
                 font-size: 20px;
@@ -86,9 +91,10 @@
             }
         }
         #card-cl{
-            
+            border: 1px solid rgb(255, 0, 0);
             .bandera{
                 width:100%;
+                border: 1px solid rgb(255, 0, 0);
             }
             .card-title-cl{
                 font-size: 20px;
@@ -100,6 +106,29 @@
             }
         }
         
+    }
+    #formulario-contacto{
+        
+        align-items: center;
+        justify-items: center;
+        margin-top: 5%;
+        @include ancho(100%);
+        h2{
+            font-size: 20px;
+        }
+        #nombre-contacto{
+            @include ancho(30%);
+        }
+        #email-contacto{
+            @include ancho(30%);
+        }
+        #cuadro-contacto{
+            @include ancho(30%);
+        }
+        #enviar-contacto{
+            color: antiquewhite;
+            background-color: #0f1ab6f3;
+        }
     }
     
 }

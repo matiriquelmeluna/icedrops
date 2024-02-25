@@ -635,8 +635,12 @@ main .morepr {
   margin-top: 2%;
   margin-bottom: 3%;
 }
+.main-contacto .cardscontacto #card-arg {
+  border: 1px solid rgb(53, 133, 179);
+}
 .main-contacto .cardscontacto #card-arg .bandera {
   width: 100%;
+  border: 1px solid rgb(53, 133, 179);
 }
 .main-contacto .cardscontacto #card-arg .card-title-arg {
   font-size: 20px;
@@ -646,8 +650,12 @@ main .morepr {
   font-size: 15px;
   margin-bottom: 0px;
 }
+.main-contacto .cardscontacto #card-br {
+  border: 1px solid rgb(44, 94, 53);
+}
 .main-contacto .cardscontacto #card-br .bandera {
   width: 100%;
+  border: 1px solid rgb(44, 94, 53);
 }
 .main-contacto .cardscontacto #card-br .card-title-br {
   font-size: 20px;
@@ -657,8 +665,12 @@ main .morepr {
   font-size: 15px;
   margin-bottom: 0px;
 }
+.main-contacto .cardscontacto #card-uy {
+  border: 1px solid rgb(27, 62, 214);
+}
 .main-contacto .cardscontacto #card-uy .bandera {
   width: 100%;
+  border: 1px solid rgb(27, 62, 214);
 }
 .main-contacto .cardscontacto #card-uy .card-title-uy {
   font-size: 20px;
@@ -668,8 +680,12 @@ main .morepr {
   font-size: 15px;
   margin-bottom: 0px;
 }
+.main-contacto .cardscontacto #card-cl {
+  border: 1px solid rgb(255, 0, 0);
+}
 .main-contacto .cardscontacto #card-cl .bandera {
   width: 100%;
+  border: 1px solid rgb(255, 0, 0);
 }
 .main-contacto .cardscontacto #card-cl .card-title-cl {
   font-size: 20px;
@@ -678,6 +694,28 @@ main .morepr {
   font-weight: 350;
   font-size: 15px;
   margin-bottom: 0px;
+}
+.main-contacto #formulario-contacto {
+  align-items: center;
+  justify-items: center;
+  margin-top: 5%;
+  width: 100%;
+}
+.main-contacto #formulario-contacto h2 {
+  font-size: 20px;
+}
+.main-contacto #formulario-contacto #nombre-contacto {
+  width: 30%;
+}
+.main-contacto #formulario-contacto #email-contacto {
+  width: 30%;
+}
+.main-contacto #formulario-contacto #cuadro-contacto {
+  width: 30%;
+}
+.main-contacto #formulario-contacto #enviar-contacto {
+  color: antiquewhite;
+  background-color: rgba(15, 26, 182, 0.9529411765);
 }
 
 /* footer contacto*/
@@ -851,73 +889,77 @@ main .morepr {
     justify-items: center;
     margin-bottom: 20%;
   }
-  .main-contacto .card {
-    width: 50%;
+  .main-contacto .cardscontacto {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-contacto .cardscontacto .card {
+    width: 80%;
     margin-top: 2%;
     margin-bottom: 3%;
   }
-  .main-contacto #card-arg {
+  .main-contacto .cardscontacto #card-arg {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
-  .main-contacto #card-arg .bandera {
+  .main-contacto .cardscontacto #card-arg .bandera {
     width: 100%;
   }
-  .main-contacto #card-arg .card-title-arg {
-    font-size: 25px;
+  .main-contacto .cardscontacto #card-arg .card-title-arg {
+    font-size: 14px;
     margin-bottom: -1px;
   }
-  .main-contacto #card-arg .card-text-arg {
-    font-size: 20px;
+  .main-contacto .cardscontacto #card-arg .card-text-arg {
+    font-size: 9px;
     margin-bottom: -1px;
   }
-  .main-contacto #card-br {
+  .main-contacto .cardscontacto #card-br {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
-  .main-contacto #card-br .bandera {
+  .main-contacto .cardscontacto #card-br .bandera {
     width: 100%;
   }
-  .main-contacto #card-br .card-title-br {
-    font-size: 25px;
+  .main-contacto .cardscontacto #card-br .card-title-br {
+    font-size: 14px;
     margin-bottom: -1px;
   }
-  .main-contacto #card-br .card-text-br {
-    font-size: 20px;
+  .main-contacto .cardscontacto #card-br .card-text-br {
+    font-size: 9px;
     margin-bottom: -1px;
   }
-  .main-contacto #card-uy {
+  .main-contacto .cardscontacto #card-uy {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
-  .main-contacto #card-uy .bandera {
+  .main-contacto .cardscontacto #card-uy .bandera {
     width: 100%;
   }
-  .main-contacto #card-uy .card-title-uy {
-    font-size: 25px;
+  .main-contacto .cardscontacto #card-uy .card-title-uy {
+    font-size: 14px;
     margin-bottom: -1px;
   }
-  .main-contacto #card-uy .card-text-uy {
-    font-size: 20px;
+  .main-contacto .cardscontacto #card-uy .card-text-uy {
+    font-size: 9px;
     margin-bottom: -1px;
   }
-  .main-contacto #card-cl {
+  .main-contacto .cardscontacto #card-cl {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
-  .main-contacto #card-cl .bandera {
+  .main-contacto .cardscontacto #card-cl .bandera {
     width: 100%;
   }
-  .main-contacto #card-cl .card-title-cl {
-    font-size: 25px;
+  .main-contacto .cardscontacto #card-cl .card-title-cl {
+    font-size: 14px;
     margin-bottom: -1px;
   }
-  .main-contacto #card-cl .card-text-cl {
-    font-size: 20px;
+  .main-contacto .cardscontacto #card-cl .card-text-cl {
+    font-size: 9px;
     margin-bottom: -1px;
   }
   .main-pago .cartel1pago {
@@ -989,63 +1031,67 @@ main .morepr {
   .main-contacto {
     justify-items: center;
   }
-  .main-contacto .card {
-    width: 30%;
+  .main-contacto .cardscontacto {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  .main-contacto #card-arg {
+  .main-contacto .cardscontacto .card {
+    width: 75%;
+  }
+  .main-contacto .cardscontacto #card-arg {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .main-contacto #card-arg .bandera {
+  .main-contacto .cardscontacto #card-arg .bandera {
     width: 100%;
   }
-  .main-contacto #card-arg .card-title-arg {
-    font-size: 40px;
+  .main-contacto .cardscontacto #card-arg .card-title-arg {
+    font-size: 20px;
   }
-  .main-contacto #card-arg .card-text-arg {
-    font: 20px;
+  .main-contacto .cardscontacto #card-arg .card-text-arg {
+    font-size: 11px;
     margin-bottom: 0px;
   }
-  .main-contacto #card-br {
+  .main-contacto .cardscontacto #card-br {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .main-contacto #card-br .bandera {
+  .main-contacto .cardscontacto #card-br .bandera {
     width: 100%;
   }
-  .main-contacto #card-br .card-title-br {
-    font-size: 25px;
+  .main-contacto .cardscontacto #card-br .card-title-br {
+    font-size: 20px;
   }
-  .main-contacto #card-br .card-text-br {
-    font: 20px;
+  .main-contacto .cardscontacto #card-br .card-text-br {
+    font-size: 11px;
     margin-bottom: 0px;
   }
-  .main-contacto #card-uy {
+  .main-contacto .cardscontacto #card-uy {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .main-contacto #card-uy .bandera {
+  .main-contacto .cardscontacto #card-uy .bandera {
     width: 100%;
   }
-  .main-contacto #card-uy .card-title-uy {
-    font-size: 25px;
+  .main-contacto .cardscontacto #card-uy .card-title-uy {
+    font-size: 20px;
   }
-  .main-contacto #card-uy .card-text-uy {
-    font: 20px;
+  .main-contacto .cardscontacto #card-uy .card-text-uy {
+    font-size: 11px;
     margin-bottom: 0px;
   }
-  .main-contacto #card-cl {
+  .main-contacto .cardscontacto #card-cl {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .main-contacto #card-cl .bandera {
+  .main-contacto .cardscontacto #card-cl .bandera {
     width: 100%;
   }
-  .main-contacto #card-cl .card-title-cl {
-    font-size: 25px;
+  .main-contacto .cardscontacto #card-cl .card-title-cl {
+    font-size: 20px;
   }
-  .main-contacto #card-cl .card-text-cl {
-    font: 20px;
+  .main-contacto .cardscontacto #card-cl .card-text-cl {
+    font-size: 11px;
     margin-bottom: 0px;
   }
   .main-pagado {
