@@ -196,6 +196,11 @@ main .productos .cards .col .forum .comprar button {
   border-color: #460075;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
+main .productos .cards .col .forum .comprar button:hover {
+  background-color: rgb(37, 37, 37);
+  border-color: rgb(37, 37, 37);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
 main .productos .cards .col .travis {
   width: 100%;
   height: 100%;
@@ -232,6 +237,11 @@ main .productos .cards .col .travis .comprar a {
   border-color: #460075;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
+main .productos .cards .col .travis .comprar a:hover {
+  background-color: rgb(37, 37, 37);
+  border-color: rgb(37, 37, 37);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
 main .productos .cards .col .stussy {
   width: 100%;
   height: 100%;
@@ -266,6 +276,11 @@ main .productos .cards .col .stussy .comprar a {
   background-color: #460075;
   border-color: #460075;
   -webkit-text-fill-color: rgb(218, 218, 218);
+}
+main .productos .cards .col .stussy .comprar a:hover {
+  background-color: rgb(37, 37, 37);
+  border-color: rgb(37, 37, 37);
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 main .productos .cards .col .zip {
   width: 100%;
@@ -302,6 +317,11 @@ main .productos .cards .col .zip .comprar a {
   background-color: #460075;
   border-color: #460075;
   -webkit-text-fill-color: rgb(218, 218, 218);
+}
+main .productos .cards .col .zip .comprar a:hover {
+  background-color: rgb(37, 37, 37);
+  border-color: rgb(37, 37, 37);
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 main .productosmenu {
   text-align: center;
@@ -348,6 +368,11 @@ main .col .forum .comprar-productos button {
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
+main .col .forum .comprar-productos button:hover {
+  background-color: rgb(124, 91, 69);
+  border-color: rgb(124, 91, 69);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
 main .col .travis .comprar-productos {
   margin-bottom: 5%;
 }
@@ -355,6 +380,11 @@ main .col .travis .comprar-productos a {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
+}
+main .col .travis .comprar-productos a:hover {
+  background-color: rgb(124, 91, 69);
+  border-color: rgb(124, 91, 69);
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 main .col .stussy .comprar-productos {
   margin-bottom: 5%;
@@ -364,6 +394,11 @@ main .col .stussy .comprar-productos a {
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
+main .col .stussy .comprar-productos a:hover {
+  background-color: rgb(124, 91, 69);
+  border-color: rgb(124, 91, 69);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
 main .col .zip .comprar-productos {
   margin-bottom: 5%;
 }
@@ -371,6 +406,11 @@ main .col .zip .comprar-productos a {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
+}
+main .col .zip .comprar-productos a:hover {
+  background-color: rgb(124, 91, 69);
+  border-color: rgb(124, 91, 69);
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 main .col .balaclava {
   width: 100%;
@@ -400,6 +440,11 @@ main .col .balaclava .comprar-productos a {
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
+main .col .balaclava .comprar-productos a:hover {
+  background-color: rgb(124, 91, 69);
+  border-color: rgb(124, 91, 69);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
 main .col .bearbrick {
   width: 100%;
   height: 100%;
@@ -427,6 +472,11 @@ main .col .bearbrick .comprar-productos a {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
+}
+main .col .bearbrick .comprar-productos a:hover {
+  background-color: rgb(124, 91, 69);
+  border-color: rgb(124, 91, 69);
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 main .col .jarritos {
   width: 100%;
@@ -456,6 +506,11 @@ main .col .jarritos .comprar-productos a {
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
+main .col .jarritos .comprar-productos a:hover {
+  background-color: rgb(124, 91, 69);
+  border-color: rgb(124, 91, 69);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
 main .col .beanie {
   width: 100%;
   height: 100%;
@@ -483,6 +538,11 @@ main .col .beanie .comprar-productos button {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
+}
+main .col .beanie .comprar-productos button:hover {
+  background-color: rgb(124, 91, 69);
+  border-color: rgb(124, 91, 69);
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 main .morepr {
   text-align: center;
@@ -520,15 +580,13 @@ main .morepr {
   text-align: left;
   width: 100%;
   height: 50%;
+  padding: 10%;
 }
 .main-preguntas .preguntapre {
   font-size: 20px;
 }
 .main-preguntas .accordion-header {
   color: aqua;
-}
-.main-preguntas #accordionExample {
-  padding: 10%;
 }
 .main-preguntas #accordionExample .accordion-body {
   display: flex;

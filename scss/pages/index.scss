@@ -14,7 +14,7 @@
 
 $color-borde: 2px solid rgb(204, 204, 204);
 
-@mixin sizes($width, $height){
+@mixin sizes($width, $height) {
     width: $width;
     height: $height;
 }
@@ -68,14 +68,20 @@ main {
 
                     .comprar {
                         margin-bottom: 5%;
-                        button{
+
+                        button {
                             background-color: #460075;
                             border-color: #460075;
                             -webkit-text-fill-color: rgb(218, 218, 218);
                         }
+                        button:hover{
+                            background-color: rgb(37, 37, 37);
+                            border-color: rgb(37, 37, 37);
+                            -webkit-text-fill-color: rgb(255, 255, 255);
+                        }
                     }
 
-                    
+
                 }
 
                 .travis {
@@ -109,10 +115,16 @@ main {
 
                     .comprar {
                         margin-bottom: 5%;
-                        a{
+
+                        a {
                             background-color: #460075;
                             border-color: #460075;
                             -webkit-text-fill-color: rgb(218, 218, 218);
+                        }
+                        a:hover{
+                            background-color: rgb(37, 37, 37);
+                            border-color: rgb(37, 37, 37);
+                            -webkit-text-fill-color: rgb(255, 255, 255);
                         }
                     }
                 }
@@ -147,10 +159,16 @@ main {
 
                     .comprar {
                         margin-bottom: 5%;
-                        a{
+
+                        a {
                             background-color: #460075;
                             border-color: #460075;
                             -webkit-text-fill-color: rgb(218, 218, 218);
+                        }
+                        a:hover{
+                            background-color: rgb(37, 37, 37);
+                            border-color: rgb(37, 37, 37);
+                            -webkit-text-fill-color: rgb(255, 255, 255);
                         }
                     }
                 }
@@ -186,10 +204,16 @@ main {
 
                     .comprar {
                         margin-bottom: 5%;
-                        a{
+
+                        a {
                             background-color: #460075;
                             border-color: #460075;
                             -webkit-text-fill-color: rgb(218, 218, 218);
+                        }
+                        a:hover{
+                            background-color: rgb(37, 37, 37);
+                            border-color: rgb(37, 37, 37);
+                            -webkit-text-fill-color: rgb(255, 255, 255);
                         }
                     }
                 }
@@ -204,6 +228,7 @@ main {
         font-size: 24px;
         font-family: 'Bebas Neue', sans-serif;
         margin-top: 5%;
+        
 
         .nav-link {
             color: #222222;
