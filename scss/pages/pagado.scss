@@ -1,12 +1,20 @@
 /* scss pagado */
 
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin ancho($ancho) {
+    width: $ancho;
+}
+
 /* header pagado*/
 .container-pagado {
     background-image: url(../assets/img/header-pagado.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    @include sizes(100%, 100%);
 }
 
 /* main pagado*/
@@ -14,10 +22,11 @@
     margin-top: 40%;
     margin-bottom: 40%;
     text-align: center;
-    #cardpagado{
-        width: 90%;
+
+    #cardpagado {
+        @include ancho(90%);
         margin: 13%;
-    }    
+    }
 }
 
 /* footer pagado*/
@@ -28,8 +37,7 @@
     font-family: 'Train One', system-ui;
     font-style: italic;
     background-color: #0f0f0f;
-    width: 100%;
-    height: 100%;
+    @include sizes(100%, 100%);
     display: flex;
     flex-direction: column;
 }

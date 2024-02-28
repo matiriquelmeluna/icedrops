@@ -1,51 +1,63 @@
 /* scss preguntas */
 
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 /* header preguntas*/
 .container-preguntas {
     background-image: url(../assets/img/barderos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
-
+    @include sizes(100%, 100%);
 }
+
+
+
+
+@mixin ancho($ancho) {
+    width: $ancho;
+}
+
 
 /* main preguntas*/
 .main-preguntas {
     list-style: none;
     padding: 10%;
     text-align: left;
-    width: 100%;
-    height: 50%;
+    @include sizes(100%, 50%);
     padding: 10%;
 
     .preguntapre {
         font-size: 20px;
     }
-    .accordion-header{
+
+    .accordion-header {
         color: aqua;
     }
+
     #accordionExample {
-        
+
 
         .accordion-body {
             display: flex;
 
             .foto-envios {
-                width: 50%;
+                @include ancho(50%);
             }
 
             .foto-no {
-                width: 50%;
+                @include ancho(50%);
             }
 
             .foto-pago {
-                width: 50%;
+                @include ancho(50%);
             }
 
             h3 {
                 font-size: 15px;
-                width: 100%;
+                @include ancho(100%);
             }
         }
 
@@ -54,8 +66,7 @@
 
 /* footer preguntas*/
 .footerpre {
-    width: 100%;
-    height: 25%;
+    @include sizes(100%, 25%);
     text-align: center;
     display: flex;
 
@@ -68,8 +79,7 @@
 
     .fondo-footer-preguntas {
         margin-top: 5%;
-        width: 100%;
-        height: 100%;
+        @include sizes(100%, 100%);
         display: flex;
         flex-direction: column;
     }

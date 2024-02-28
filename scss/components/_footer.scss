@@ -1,17 +1,17 @@
-
-
 /* scss footer */
 
-footer{
+footer {
     width: 100%;
     height: 25%;
     text-align: center;
-    .titulofooter{
+
+    .titulofooter {
         text-align: center;
         height: 20%;
         width: 100%;
 
         margin-bottom: 2%;
+
         .titulo {
             font-size: 35px;
             -webkit-text-fill-color: #ffffff;
@@ -19,7 +19,7 @@ footer{
             font-family: 'Train One', system-ui;
             font-style: italic;
         }
-        
+
         .substitulo {
             font-size: 18px;
             -webkit-text-fill-color: #ffffff;
@@ -27,6 +27,7 @@ footer{
             font-style: italic;
         }
     }
+
     .suscripcion {
         -webkit-text-fill-color: #979393;
         align-self: center;
@@ -36,24 +37,29 @@ footer{
         margin-bottom: 5%;
         font-family: 'Bebas Neue', sans-serif;
         width: 50%;
-        .cartelsus{
+
+        .cartelsus {
             font-size: 15px;
             margin-top: 5%;
         }
-        .rellenar{
+
+        .rellenar {
             display: flex;
             width: 100%;
-            .email{
+
+            .email {
                 width: 70%;
                 font-size: 15px;
             }
-            .boton{
+
+            .boton {
                 width: 30%;
                 font-size: 15px;
             }
         }
-        
+
     }
+
     .copy {
         width: 100%;
         font-size: 16px;

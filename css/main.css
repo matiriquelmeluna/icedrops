@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 1px solid red;*/
 }
 
 /* scss header */
@@ -137,8 +136,8 @@ footer .copy {
   background-image: url(../assets/img/header-kanye.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 /* main index */
@@ -355,8 +354,8 @@ main .productosmenu .nav-link:hover {
   background-image: url(../assets/img/header-drake.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 /* main productos*/
@@ -569,8 +568,8 @@ main .morepr {
   background-image: url(../assets/img/barderos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 /* main preguntas*/
@@ -632,8 +631,8 @@ main .morepr {
   background-image: url(../assets/img/ysy-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 /* main nosotros */
@@ -667,13 +666,11 @@ main .morepr {
   background-image: url(../assets/img/header-neo.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 /* main contacto*/
-/*@include sizes(100%, 100%);*/
-/*@include ancho(100%);*/
 .main-contacto {
   text-align: center;
   width: 100%;
@@ -796,8 +793,8 @@ main .morepr {
   background-image: url(../assets/img/header-pago.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 /* main pago*/
@@ -865,8 +862,8 @@ main .morepr {
   background-image: url(../assets/img/header-pagado.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 /* main pagado*/

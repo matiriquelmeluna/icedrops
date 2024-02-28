@@ -1,23 +1,22 @@
 /* SCSS INDEX*/
 
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 /* header index */
 
 .container-index {
     background-image: url(../assets/img/header-kanye.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    @include sizes(100%, 100%);
 }
 
 /* main index */
 
 $color-borde: 2px solid rgb(204, 204, 204);
-
-@mixin sizes($width, $height) {
-    width: $width;
-    height: $height;
-}
 
 main {
     .productos {
@@ -74,7 +73,8 @@ main {
                             border-color: #460075;
                             -webkit-text-fill-color: rgb(218, 218, 218);
                         }
-                        button:hover{
+
+                        button:hover {
                             background-color: rgb(37, 37, 37);
                             border-color: rgb(37, 37, 37);
                             -webkit-text-fill-color: rgb(255, 255, 255);
@@ -121,7 +121,8 @@ main {
                             border-color: #460075;
                             -webkit-text-fill-color: rgb(218, 218, 218);
                         }
-                        a:hover{
+
+                        a:hover {
                             background-color: rgb(37, 37, 37);
                             border-color: rgb(37, 37, 37);
                             -webkit-text-fill-color: rgb(255, 255, 255);
@@ -165,7 +166,8 @@ main {
                             border-color: #460075;
                             -webkit-text-fill-color: rgb(218, 218, 218);
                         }
-                        a:hover{
+
+                        a:hover {
                             background-color: rgb(37, 37, 37);
                             border-color: rgb(37, 37, 37);
                             -webkit-text-fill-color: rgb(255, 255, 255);
@@ -210,7 +212,8 @@ main {
                             border-color: #460075;
                             -webkit-text-fill-color: rgb(218, 218, 218);
                         }
-                        a:hover{
+
+                        a:hover {
                             background-color: rgb(37, 37, 37);
                             border-color: rgb(37, 37, 37);
                             -webkit-text-fill-color: rgb(255, 255, 255);
@@ -228,7 +231,7 @@ main {
         font-size: 24px;
         font-family: 'Bebas Neue', sans-serif;
         margin-top: 5%;
-        
+
 
         .nav-link {
             color: #222222;

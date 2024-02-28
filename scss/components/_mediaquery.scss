@@ -1,20 +1,23 @@
 /* mediaquery scss*/
-@mixin ancho($ancho){
+@mixin ancho($ancho) {
     width: $ancho;
 }
+
 @media screen and (min-width: 768px) {
     header {
 
-        .container-fluid{
+        .container-fluid {
             flex-direction: row;
             padding: 5%;
+
             .logo {
-                
+
                 text-align: center;
                 height: 10%;
                 justify-content: center;
 
             }
+
             .barra {
                 font-size: 20px;
 
@@ -57,7 +60,7 @@
                     #precioproducto {
                         font-size: 21px;
                     }
-                    
+
                 }
             }
         }
@@ -75,83 +78,99 @@
     .main-contacto {
         justify-items: center;
         margin-bottom: 20%;
-        .cardscontacto{
+
+        .cardscontacto {
             grid-template-rows: repeat(2, 1fr);
             grid-template-columns: repeat(2, 1fr);
-            .card {
-            @include ancho(80%);
-            margin-top: 2%;
-            margin-bottom: 3%;
-            
-        }
-        
-        #card-arg{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);    
-            align-items: center;    
 
-            .bandera{
-                width:100%;
+            .card {
+                @include ancho(80%);
+                margin-top: 2%;
+                margin-bottom: 3%;
+
             }
-            .card-title-arg{
-                font-size: 14px;
-                margin-bottom: -1px;
+
+            #card-arg {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+
+                .bandera {
+                    width: 100%;
+                }
+
+                .card-title-arg {
+                    font-size: 14px;
+                    margin-bottom: -1px;
+                }
+
+                .card-text-arg {
+                    font-size: 9px;
+                    margin-bottom: -1px;
+                }
             }
-            .card-text-arg{
-                font-size:  9px;
-                margin-bottom: -1px;
+
+            #card-br {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+
+                .bandera {
+                    width: 100%;
+                }
+
+                .card-title-br {
+                    font-size: 14px;
+                    margin-bottom: -1px;
+                }
+
+                .card-text-br {
+                    font-size: 9px;
+                    margin-bottom: -1px;
+                }
+            }
+
+            #card-uy {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+
+                .bandera {
+                    width: 100%;
+                }
+
+                .card-title-uy {
+                    font-size: 14px;
+                    margin-bottom: -1px;
+                }
+
+                .card-text-uy {
+                    font-size: 9px;
+                    margin-bottom: -1px;
+                }
+            }
+
+            #card-cl {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+
+                .bandera {
+                    width: 100%;
+                }
+
+                .card-title-cl {
+                    font-size: 14px;
+                    margin-bottom: -1px;
+                }
+
+                .card-text-cl {
+                    font-size: 9px;
+                    margin-bottom: -1px;
+                }
             }
         }
-        #card-br{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            align-items: center;
-            .bandera{
-                width:100%;
-            }
-            .card-title-br{
-                font-size: 14px;
-                margin-bottom: -1px;
-            }
-            .card-text-br{
-                font-size:  9px;
-                margin-bottom: -1px;
-            }
-        }
-        #card-uy{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            align-items: center;
-            .bandera{
-                width:100%;
-            }
-            .card-title-uy{
-                font-size: 14px;
-                margin-bottom: -1px;
-            }
-            .card-text-uy{
-                font-size:  9px;
-                margin-bottom: -1px;
-            }
-        }
-        #card-cl{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            align-items: center;
-            .bandera{
-                width:100%;
-            }
-            .card-title-cl{
-                font-size: 14px;
-                margin-bottom: -1px;
-            }
-            .card-text-cl{
-                font-size:  9px;
-                margin-bottom: -1px;
-            }
-        }
-        }
-        
+
     }
 
     .main-pago {
@@ -163,19 +182,22 @@
             font-size: 17px;
         }
     }
-    footer{
-        .suscripcion{
+
+    footer {
+        .suscripcion {
             width: 40%;
-            .rellenar{
-                .email{
+
+            .rellenar {
+                .email {
                     width: 85%;
                 }
-                .boton{
+
+                .boton {
                     width: 15%;
                 }
             }
         }
-    
+
     }
 }
 
@@ -183,16 +205,18 @@
 @media screen and (min-width: 1024px) {
     header {
 
-        .container-fluid{
+        .container-fluid {
             flex-direction: row-reverse;
             padding: 5%;
+
             .logo {
-                
+
                 text-align: center;
                 height: 10%;
                 justify-content: center;
 
             }
+
             .barra {
                 font-size: 20px;
 
@@ -223,12 +247,12 @@
                     height: 100%;
                     margin-bottom: 0%;
                     font-size: 10px;
-                    
+
                     #descuento {
                         font-size: 20px;
                         width: 8%;
                         margin: 2%;
-                        
+
 
                     }
 
@@ -240,7 +264,7 @@
                         font-size: 17px;
                     }
 
-                    
+
                 }
             }
         }
@@ -256,70 +280,88 @@
 
     .main-contacto {
         justify-items: center;
-        .cardscontacto{
+
+        .cardscontacto {
             grid-template-rows: repeat(2, 1fr);
             grid-template-columns: repeat(2, 1fr);
-            .card{
+
+            .card {
                 @include ancho(75%);
             }
-            #card-arg{
+
+            #card-arg {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                .bandera{
-                    width:100%;
+
+                .bandera {
+                    width: 100%;
                 }
-                .card-title-arg{
+
+                .card-title-arg {
                     font-size: 20px;
                 }
-                .card-text-arg{
-                    font-size:  11px;
+
+                .card-text-arg {
+                    font-size: 11px;
                     margin-bottom: 0px;
                 }
             }
-            #card-br{
+
+            #card-br {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                .bandera{
-                    width:100%;
+
+                .bandera {
+                    width: 100%;
                 }
-                .card-title-br{
+
+                .card-title-br {
                     font-size: 20px;
                 }
-                .card-text-br{
-                    font-size:  11px;
+
+                .card-text-br {
+                    font-size: 11px;
                     margin-bottom: 0px;
                 }
             }
-            #card-uy{
+
+            #card-uy {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                .bandera{
-                    width:100%;
+
+                .bandera {
+                    width: 100%;
                 }
-                .card-title-uy{
+
+                .card-title-uy {
                     font-size: 20px;
                 }
-                .card-text-uy{
-                    font-size:  11px;
+
+                .card-text-uy {
+                    font-size: 11px;
                     margin-bottom: 0px;
                 }
             }
-            #card-cl{
+
+            #card-cl {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                .bandera{
-                    width:100%;
+
+                .bandera {
+                    width: 100%;
                 }
-                .card-title-cl{
+
+                .card-title-cl {
                     font-size: 20px;
                 }
-                .card-text-cl{
-                    font-size:  11px;
+
+                .card-text-cl {
+                    font-size: 11px;
                     margin-bottom: 0px;
                 }
             }
         }
-        
+
 
     }
 
@@ -333,20 +375,23 @@
         margin-top: 10%;
 
     }
-    footer{
-        .suscripcion{
+
+    footer {
+        .suscripcion {
             width: 35%;
-            .rellenar{
-                .email{
+
+            .rellenar {
+                .email {
                     width: 85%;
                 }
-                .boton{
+
+                .boton {
                     width: 15%;
                 }
             }
         }
-    
+
     }
-    
+
 
 }

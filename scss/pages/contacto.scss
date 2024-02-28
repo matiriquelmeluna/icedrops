@@ -1,36 +1,39 @@
 /* scss contacto */
 
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 /* header contacto*/
-.container-contacto{
+.container-contacto {
     background-image: url(../assets/img/header-neo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    @include sizes(100%, 100%);
 }
 
 /* main contacto*/
 
-@mixin sizes($width, $height){
-    width: $width;
-    height: $height;
-}
-/*@include sizes(100%, 100%);*/
 
-@mixin ancho($ancho){
+
+
+@mixin ancho($ancho) {
     width: $ancho;
 }
-/*@include ancho(100%);*/
+
 
 .main-contacto {
     text-align: center;
-    
+
 
     @include ancho(100%);
-    .contactoscon{
+
+    .contactoscon {
         margin-top: 10%;
         font-size: 25px;
     }
+
     .cardscontacto {
         justify-items: center;
         align-items: center;
@@ -42,99 +45,121 @@
             @include ancho(50%);
             margin-top: 2%;
             margin-bottom: 3%;
-            
+
         }
-        #card-arg{
+
+        #card-arg {
             border: 1px solid rgb(53, 133, 179);
-            .bandera{
-                width:100%;
+
+            .bandera {
+                width: 100%;
                 border: 1px solid rgb(53, 133, 179);
             }
-            .card-title-arg{
+
+            .card-title-arg {
                 font-size: 20px;
             }
-            .card-text-arg{
+
+            .card-text-arg {
                 font-weight: 350;
-                font-size:  15px;
+                font-size: 15px;
                 margin-bottom: 0px;
             }
-            
+
         }
-        #card-br{
+
+        #card-br {
             border: 1px solid rgb(44, 94, 53);
-            .bandera{
-                width:100%;
+
+            .bandera {
+                width: 100%;
                 border: 1px solid rgb(44, 94, 53);
             }
-            .card-title-br{
+
+            .card-title-br {
                 font-size: 20px;
             }
-            .card-text-br{
+
+            .card-text-br {
                 font-weight: 350;
-                font-size:  15px;
+                font-size: 15px;
                 margin-bottom: 0px;
             }
         }
-        #card-uy{
+
+        #card-uy {
             border: 1px solid rgb(27, 62, 214);
-            .bandera{
-                width:100%;
+
+            .bandera {
+                width: 100%;
                 border: 1px solid rgb(27, 62, 214);
             }
-            .card-title-uy{
+
+            .card-title-uy {
                 font-size: 20px;
             }
-            .card-text-uy{
+
+            .card-text-uy {
                 font-weight: 350;
-                font-size:  15px;
+                font-size: 15px;
                 margin-bottom: 0px;
             }
         }
-        #card-cl{
+
+        #card-cl {
             border: 1px solid rgb(255, 0, 0);
-            .bandera{
-                width:100%;
+
+            .bandera {
+                width: 100%;
                 border: 1px solid rgb(255, 0, 0);
             }
-            .card-title-cl{
+
+            .card-title-cl {
                 font-size: 20px;
             }
-            .card-text-cl{
+
+            .card-text-cl {
                 font-weight: 350;
-                font-size:  15px;
+                font-size: 15px;
                 margin-bottom: 0px;
             }
         }
-        
+
     }
-    #formulario-contacto{
-        
+
+    #formulario-contacto {
+
         align-items: center;
         justify-items: center;
         margin-top: 5%;
         @include ancho(100%);
-        h2{
+
+        h2 {
             font-size: 20px;
         }
-        #nombre-contacto{
+
+        #nombre-contacto {
             @include ancho(30%);
         }
-        #email-contacto{
+
+        #email-contacto {
             @include ancho(30%);
         }
-        #cuadro-contacto{
+
+        #cuadro-contacto {
             @include ancho(30%);
         }
-        #enviar-contacto{
+
+        #enviar-contacto {
             color: antiquewhite;
             background-color: #0f1ab6f3;
         }
     }
-    
+
 }
 
 /* footer contacto*/
-.fondo-footer-contacto{
+.fondo-footer-contacto {
     margin-top: 5%;
     padding-top: 5%;
     -webkit-text-fill-color: #ffffff;

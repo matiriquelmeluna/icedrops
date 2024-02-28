@@ -1,22 +1,23 @@
 /* scss productos */
 
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 /* header productos*/
 .container-productos {
     background-image: url(../assets/img/header-drake.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    @include sizes(100%, 100%);
 }
 
 /* main productos*/
 
-@mixin sizes($width, $height){
-    width: $width;
-    height: $height;
-}
 
-@mixin ancho($ancho){
+
+@mixin ancho($ancho) {
     width: $ancho;
 }
 
@@ -26,12 +27,14 @@ main {
         .forum {
             .comprar-productos {
                 margin-bottom: 5%;
-                button{
-                    background-color:#2e1c08;
+
+                button {
+                    background-color: #2e1c08;
                     border-color: #2e1c08;
                     -webkit-text-fill-color: rgb(218, 218, 218);
                 }
-                button:hover{
+
+                button:hover {
                     background-color: rgb(124, 91, 69);
                     border-color: rgb(124, 91, 69);
                     -webkit-text-fill-color: rgb(255, 255, 255);
@@ -42,12 +45,14 @@ main {
         .travis {
             .comprar-productos {
                 margin-bottom: 5%;
-                a{
-                    background-color:#2e1c08;
+
+                a {
+                    background-color: #2e1c08;
                     border-color: #2e1c08;
                     -webkit-text-fill-color: rgb(218, 218, 218);
                 }
-                a:hover{
+
+                a:hover {
                     background-color: rgb(124, 91, 69);
                     border-color: rgb(124, 91, 69);
                     -webkit-text-fill-color: rgb(255, 255, 255);
@@ -58,12 +63,14 @@ main {
         .stussy {
             .comprar-productos {
                 margin-bottom: 5%;
-                a{
-                    background-color:#2e1c08;
+
+                a {
+                    background-color: #2e1c08;
                     border-color: #2e1c08;
                     -webkit-text-fill-color: rgb(218, 218, 218);
                 }
-                a:hover{
+
+                a:hover {
                     background-color: rgb(124, 91, 69);
                     border-color: rgb(124, 91, 69);
                     -webkit-text-fill-color: rgb(255, 255, 255);
@@ -74,12 +81,14 @@ main {
         .zip {
             .comprar-productos {
                 margin-bottom: 5%;
-                a{
-                    background-color:#2e1c08;
+
+                a {
+                    background-color: #2e1c08;
                     border-color: #2e1c08;
                     -webkit-text-fill-color: rgb(218, 218, 218);
                 }
-                a:hover{
+
+                a:hover {
                     background-color: rgb(124, 91, 69);
                     border-color: rgb(124, 91, 69);
                     -webkit-text-fill-color: rgb(255, 255, 255);
@@ -110,12 +119,14 @@ main {
 
             .comprar-productos {
                 margin-bottom: 5%;
-                a{
-                    background-color:#2e1c08;
+
+                a {
+                    background-color: #2e1c08;
                     border-color: #2e1c08;
                     -webkit-text-fill-color: rgb(218, 218, 218);
                 }
-                a:hover{
+
+                a:hover {
                     background-color: rgb(124, 91, 69);
                     border-color: rgb(124, 91, 69);
                     -webkit-text-fill-color: rgb(255, 255, 255);
@@ -146,12 +157,14 @@ main {
 
             .comprar-productos {
                 margin-bottom: 5%;
-                a{
-                    background-color:#2e1c08;
+
+                a {
+                    background-color: #2e1c08;
                     border-color: #2e1c08;
                     -webkit-text-fill-color: rgb(218, 218, 218);
                 }
-                a:hover{
+
+                a:hover {
                     background-color: rgb(124, 91, 69);
                     border-color: rgb(124, 91, 69);
                     -webkit-text-fill-color: rgb(255, 255, 255);
@@ -182,12 +195,14 @@ main {
 
             .comprar-productos {
                 margin-bottom: 5%;
-                a{
-                    background-color:#2e1c08;
+
+                a {
+                    background-color: #2e1c08;
                     border-color: #2e1c08;
                     -webkit-text-fill-color: rgb(218, 218, 218);
                 }
-                a:hover{
+
+                a:hover {
                     background-color: rgb(124, 91, 69);
                     border-color: rgb(124, 91, 69);
                     -webkit-text-fill-color: rgb(255, 255, 255);
@@ -218,12 +233,14 @@ main {
 
             .comprar-productos {
                 margin-bottom: 5%;
-                button{
-                    background-color:#2e1c08;
+
+                button {
+                    background-color: #2e1c08;
                     border-color: #2e1c08;
                     -webkit-text-fill-color: rgb(218, 218, 218);
                 }
-                button:hover{
+
+                button:hover {
                     background-color: rgb(124, 91, 69);
                     border-color: rgb(124, 91, 69);
                     -webkit-text-fill-color: rgb(255, 255, 255);
@@ -231,8 +248,9 @@ main {
             }
         }
 
-        
+
     }
+
     .morepr {
         text-align: center;
         @include ancho(100%);
