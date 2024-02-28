@@ -231,12 +231,12 @@ main .productos .cards .col .travis .precioproducto {
 main .productos .cards .col .travis .comprar {
   margin-bottom: 5%;
 }
-main .productos .cards .col .travis .comprar a {
+main .productos .cards .col .travis .comprar button {
   background-color: #460075;
   border-color: #460075;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
-main .productos .cards .col .travis .comprar a:hover {
+main .productos .cards .col .travis .comprar button:hover {
   background-color: rgb(37, 37, 37);
   border-color: rgb(37, 37, 37);
   -webkit-text-fill-color: rgb(255, 255, 255);
@@ -375,12 +375,12 @@ main .col .forum .comprar-productos button:hover {
 main .col .travis .comprar-productos {
   margin-bottom: 5%;
 }
-main .col .travis .comprar-productos a {
+main .col .travis .comprar-productos button {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
-main .col .travis .comprar-productos a:hover {
+main .col .travis .comprar-productos button:hover {
   background-color: rgb(124, 91, 69);
   border-color: rgb(124, 91, 69);
   -webkit-text-fill-color: rgb(255, 255, 255);
@@ -388,12 +388,12 @@ main .col .travis .comprar-productos a:hover {
 main .col .stussy .comprar-productos {
   margin-bottom: 5%;
 }
-main .col .stussy .comprar-productos a {
+main .col .stussy .comprar-productos button {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
-main .col .stussy .comprar-productos a:hover {
+main .col .stussy .comprar-productos button:hover {
   background-color: rgb(124, 91, 69);
   border-color: rgb(124, 91, 69);
   -webkit-text-fill-color: rgb(255, 255, 255);
@@ -401,12 +401,12 @@ main .col .stussy .comprar-productos a:hover {
 main .col .zip .comprar-productos {
   margin-bottom: 5%;
 }
-main .col .zip .comprar-productos a {
+main .col .zip .comprar-productos button {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
-main .col .zip .comprar-productos a:hover {
+main .col .zip .comprar-productos button:hover {
   background-color: rgb(124, 91, 69);
   border-color: rgb(124, 91, 69);
   -webkit-text-fill-color: rgb(255, 255, 255);
@@ -434,12 +434,12 @@ main .col .balaclava .precioproducto {
 main .col .balaclava .comprar-productos {
   margin-bottom: 5%;
 }
-main .col .balaclava .comprar-productos a {
+main .col .balaclava .comprar-productos button {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
-main .col .balaclava .comprar-productos a:hover {
+main .col .balaclava .comprar-productos button:hover {
   background-color: rgb(124, 91, 69);
   border-color: rgb(124, 91, 69);
   -webkit-text-fill-color: rgb(255, 255, 255);
@@ -467,12 +467,12 @@ main .col .bearbrick .precioproducto {
 main .col .bearbrick .comprar-productos {
   margin-bottom: 5%;
 }
-main .col .bearbrick .comprar-productos a {
+main .col .bearbrick .comprar-productos button {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
-main .col .bearbrick .comprar-productos a:hover {
+main .col .bearbrick .comprar-productos button:hover {
   background-color: rgb(124, 91, 69);
   border-color: rgb(124, 91, 69);
   -webkit-text-fill-color: rgb(255, 255, 255);
@@ -500,12 +500,12 @@ main .col .jarritos .precioproducto {
 main .col .jarritos .comprar-productos {
   margin-bottom: 5%;
 }
-main .col .jarritos .comprar-productos a {
+main .col .jarritos .comprar-productos button {
   background-color: #2e1c08;
   border-color: #2e1c08;
   -webkit-text-fill-color: rgb(218, 218, 218);
 }
-main .col .jarritos .comprar-productos a:hover {
+main .col .jarritos .comprar-productos button:hover {
   background-color: rgb(124, 91, 69);
   border-color: rgb(124, 91, 69);
   -webkit-text-fill-color: rgb(255, 255, 255);
