@@ -231,7 +231,7 @@ main .productos .cards .col .travis .precioproducto {
 main .productos .cards .col .travis .comprar {
   margin-bottom: 5%;
 }
-main .productos .cards .col .travis .comprar button {
+main .productos .cards .col .travis .comprar a button {
   background-color: #460075;
   border-color: #460075;
   -webkit-text-fill-color: rgb(218, 218, 218);
@@ -271,7 +271,7 @@ main .productos .cards .col .stussy .precioproducto {
 main .productos .cards .col .stussy .comprar {
   margin-bottom: 5%;
 }
-main .productos .cards .col .stussy .comprar button {
+main .productos .cards .col .stussy .comprar a button {
   background-color: #460075;
   border-color: #460075;
   -webkit-text-fill-color: rgb(218, 218, 218);
@@ -312,7 +312,7 @@ main .productos .cards .col .zip .precioproducto {
 main .productos .cards .col .zip .comprar {
   margin-bottom: 5%;
 }
-main .productos .cards .col .zip .comprar button {
+main .productos .cards .col .zip .comprar a button {
   background-color: #460075;
   border-color: #460075;
   -webkit-text-fill-color: rgb(218, 218, 218);
